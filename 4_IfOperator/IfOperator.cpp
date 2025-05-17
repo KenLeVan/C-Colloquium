@@ -1,11 +1,3 @@
-/*
-
-I
-
-II
-
-*/
-
 #include <iostream>
 
 // simple ternar operator
