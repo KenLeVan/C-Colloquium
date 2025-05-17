@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\in.dir/objects.a
+C:\Users\user\.utils\llvm-mingw\bin\llvm-ar.exe qc CMakeFiles\in.dir/objects.a @CMakeFiles\in.dir\objects1.rsp
+C:\Users\user\.utils\llvm-mingw\bin\clang++.exe -g -O0 -Wall -Wl,--whole-archive CMakeFiles\in.dir/objects.a -Wl,--no-whole-archive -o in.exe -Wl,--out-implib,libin.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\in.dir\linkLibs.rsp
