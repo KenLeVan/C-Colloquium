@@ -123,41 +123,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named TypesOfData
+# Target rules for targets named VariablesAndMemoryMemory
 
 # Build rule for target.
-TypesOfData: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 TypesOfData
-.PHONY : TypesOfData
+VariablesAndMemoryMemory: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 VariablesAndMemoryMemory
+.PHONY : VariablesAndMemoryMemory
 
 # fast build rule for target.
-TypesOfData/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TypesOfData.dir\build.make CMakeFiles/TypesOfData.dir/build
-.PHONY : TypesOfData/fast
+VariablesAndMemoryMemory/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VariablesAndMemoryMemory.dir\build.make CMakeFiles/VariablesAndMemoryMemory.dir/build
+.PHONY : VariablesAndMemoryMemory/fast
 
-2_FundamentalTypesOfData/TypesOfData.obj: 2_FundamentalTypesOfData/TypesOfData.cpp.obj
-.PHONY : 2_FundamentalTypesOfData/TypesOfData.obj
+3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.obj: 3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.cpp.obj
+.PHONY : 3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.obj
 
 # target to build an object file
-2_FundamentalTypesOfData/TypesOfData.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TypesOfData.dir\build.make CMakeFiles/TypesOfData.dir/2_FundamentalTypesOfData/TypesOfData.cpp.obj
-.PHONY : 2_FundamentalTypesOfData/TypesOfData.cpp.obj
+3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VariablesAndMemoryMemory.dir\build.make CMakeFiles/VariablesAndMemoryMemory.dir/3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.cpp.obj
+.PHONY : 3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.cpp.obj
 
-2_FundamentalTypesOfData/TypesOfData.i: 2_FundamentalTypesOfData/TypesOfData.cpp.i
-.PHONY : 2_FundamentalTypesOfData/TypesOfData.i
+3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.i: 3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.cpp.i
+.PHONY : 3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.i
 
 # target to preprocess a source file
-2_FundamentalTypesOfData/TypesOfData.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TypesOfData.dir\build.make CMakeFiles/TypesOfData.dir/2_FundamentalTypesOfData/TypesOfData.cpp.i
-.PHONY : 2_FundamentalTypesOfData/TypesOfData.cpp.i
+3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VariablesAndMemoryMemory.dir\build.make CMakeFiles/VariablesAndMemoryMemory.dir/3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.cpp.i
+.PHONY : 3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.cpp.i
 
-2_FundamentalTypesOfData/TypesOfData.s: 2_FundamentalTypesOfData/TypesOfData.cpp.s
-.PHONY : 2_FundamentalTypesOfData/TypesOfData.s
+3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.s: 3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.cpp.s
+.PHONY : 3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.s
 
 # target to generate assembly for a file
-2_FundamentalTypesOfData/TypesOfData.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TypesOfData.dir\build.make CMakeFiles/TypesOfData.dir/2_FundamentalTypesOfData/TypesOfData.cpp.s
-.PHONY : 2_FundamentalTypesOfData/TypesOfData.cpp.s
+3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VariablesAndMemoryMemory.dir\build.make CMakeFiles/VariablesAndMemoryMemory.dir/3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.cpp.s
+.PHONY : 3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.cpp.s
 
 # Help Target
 help:
@@ -168,10 +168,10 @@ help:
 	@echo ... codegen
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... TypesOfData
-	@echo ... 2_FundamentalTypesOfData/TypesOfData.obj
-	@echo ... 2_FundamentalTypesOfData/TypesOfData.i
-	@echo ... 2_FundamentalTypesOfData/TypesOfData.s
+	@echo ... VariablesAndMemoryMemory
+	@echo ... 3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.obj
+	@echo ... 3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.i
+	@echo ... 3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.s
 .PHONY : help
 
 

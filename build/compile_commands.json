@@ -1,8 +1,8 @@
 [
 {
   "directory": "H:/Разное/c/C-Colloquium/build",
-  "command": "C:\\Users\\user\\.utils\\llvm-mingw\\bin\\clang++.exe   -g -O0 -Wall -std=gnu++20 -o CMakeFiles\\TypesOfData.dir\\2_FundamentalTypesOfData\\TypesOfData.cpp.obj -c H:\\Разное\\c\\C-Colloquium\\2_FundamentalTypesOfData\\TypesOfData.cpp",
-  "file": "H:/Разное/c/C-Colloquium/2_FundamentalTypesOfData/TypesOfData.cpp",
-  "output": "CMakeFiles/TypesOfData.dir/2_FundamentalTypesOfData/TypesOfData.cpp.obj"
+  "command": "C:\\Users\\user\\.utils\\llvm-mingw\\bin\\clang++.exe   -g -O0 -Wall -std=gnu++20 -o CMakeFiles\\VariablesAndMemoryMemory.dir\\3_VariablesAndMemoryMemory\\VariablesAndMemoryMemory.cpp.obj -c H:\\Разное\\c\\C-Colloquium\\3_VariablesAndMemoryMemory\\VariablesAndMemoryMemory.cpp",
+  "file": "H:/Разное/c/C-Colloquium/3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.cpp",
+  "output": "CMakeFiles/VariablesAndMemoryMemory.dir/3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.cpp.obj"
 }
 ]

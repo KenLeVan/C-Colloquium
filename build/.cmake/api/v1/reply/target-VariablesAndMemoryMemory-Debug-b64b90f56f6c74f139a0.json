@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "TypesOfData.exe"
+			"path" : "VariablesAndMemoryMemory.exe"
 		},
 		{
-			"path" : "TypesOfData.pdb"
+			"path" : "VariablesAndMemoryMemory.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 17,
+				"line" : 18,
 				"parent" : 0
 			}
 		]
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "TypesOfData::@6890427a1f51a3e7e1df",
+	"id" : "VariablesAndMemoryMemory::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -72,8 +72,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "TypesOfData",
-	"nameOnDisk" : "TypesOfData.exe",
+	"name" : "VariablesAndMemoryMemory",
+	"nameOnDisk" : "VariablesAndMemoryMemory.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -94,7 +94,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "2_FundamentalTypesOfData/TypesOfData.cpp",
+			"path" : "3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

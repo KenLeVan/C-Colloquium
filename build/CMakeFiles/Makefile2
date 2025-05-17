@@ -62,11 +62,11 @@ CMAKE_BINARY_DIR = H:\Разное\c\C-Colloquium\build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/TypesOfData.dir/all
+all: CMakeFiles/VariablesAndMemoryMemory.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/TypesOfData.dir/codegen
+codegen: CMakeFiles/VariablesAndMemoryMemory.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -74,40 +74,40 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/TypesOfData.dir/clean
+clean: CMakeFiles/VariablesAndMemoryMemory.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/TypesOfData.dir
+# Target rules for target CMakeFiles/VariablesAndMemoryMemory.dir
 
 # All Build rule for target.
-CMakeFiles/TypesOfData.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TypesOfData.dir\build.make CMakeFiles/TypesOfData.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TypesOfData.dir\build.make CMakeFiles/TypesOfData.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=1,2 "Built target TypesOfData"
-.PHONY : CMakeFiles/TypesOfData.dir/all
+CMakeFiles/VariablesAndMemoryMemory.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VariablesAndMemoryMemory.dir\build.make CMakeFiles/VariablesAndMemoryMemory.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VariablesAndMemoryMemory.dir\build.make CMakeFiles/VariablesAndMemoryMemory.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=1,2 "Built target VariablesAndMemoryMemory"
+.PHONY : CMakeFiles/VariablesAndMemoryMemory.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/TypesOfData.dir/rule: cmake_check_build_system
+CMakeFiles/VariablesAndMemoryMemory.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start H:\Разное\c\C-Colloquium\build\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/TypesOfData.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/VariablesAndMemoryMemory.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start H:\Разное\c\C-Colloquium\build\CMakeFiles 0
-.PHONY : CMakeFiles/TypesOfData.dir/rule
+.PHONY : CMakeFiles/VariablesAndMemoryMemory.dir/rule
 
 # Convenience name for target.
-TypesOfData: CMakeFiles/TypesOfData.dir/rule
-.PHONY : TypesOfData
+VariablesAndMemoryMemory: CMakeFiles/VariablesAndMemoryMemory.dir/rule
+.PHONY : VariablesAndMemoryMemory
 
 # codegen rule for target.
-CMakeFiles/TypesOfData.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TypesOfData.dir\build.make CMakeFiles/TypesOfData.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=1,2 "Finished codegen for target TypesOfData"
-.PHONY : CMakeFiles/TypesOfData.dir/codegen
+CMakeFiles/VariablesAndMemoryMemory.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VariablesAndMemoryMemory.dir\build.make CMakeFiles/VariablesAndMemoryMemory.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=1,2 "Finished codegen for target VariablesAndMemoryMemory"
+.PHONY : CMakeFiles/VariablesAndMemoryMemory.dir/codegen
 
 # clean rule for target.
-CMakeFiles/TypesOfData.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TypesOfData.dir\build.make CMakeFiles/TypesOfData.dir/clean
-.PHONY : CMakeFiles/TypesOfData.dir/clean
+CMakeFiles/VariablesAndMemoryMemory.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VariablesAndMemoryMemory.dir\build.make CMakeFiles/VariablesAndMemoryMemory.dir/clean
+.PHONY : CMakeFiles/VariablesAndMemoryMemory.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -14,4 +14,5 @@ set(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -O0")
 
 #### the list of targets ####
 # add_executable(introduction                1_Introduction/introduction.cpp)
-add_executable(TypesOfData                2_FundamentalTypesOfData/TypesOfData.cpp)
+# add_executable(TypesOfData                2_FundamentalTypesOfData/TypesOfData.cpp)
+add_executable(VariablesAndMemoryMemory                3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.cpp)
