@@ -63,5 +63,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/introduction.dir/DependInfo.cmake"
+  "CMakeFiles/TypesOfData.dir/DependInfo.cmake"
   "CMakeFiles/VariablesAndMemoryMemory.dir/DependInfo.cmake"
+  "CMakeFiles/IfOperator.dir/DependInfo.cmake"
   )

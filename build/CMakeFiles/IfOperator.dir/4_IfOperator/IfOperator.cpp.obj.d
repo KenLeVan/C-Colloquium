@@ -1,5 +1,5 @@
-CMakeFiles/VariablesAndMemoryMemory.dir/3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.cpp.obj: \
-  H:/Разное/c/C-Colloquium/3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.cpp \
+CMakeFiles/IfOperator.dir/4_IfOperator/IfOperator.cpp.obj: \
+  H:/Разное/c/C-Colloquium/4_IfOperator/IfOperator.cpp \
   C:/Users/user/.utils/llvm-mingw/include/c++/v1/iostream \
   C:/Users/user/.utils/llvm-mingw/include/c++/v1/__config \
   C:/Users/user/.utils/llvm-mingw/include/c++/v1/__config_site \

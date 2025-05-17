@@ -1,5 +1,5 @@
-CMakeFiles/VariablesAndMemoryMemory.dir/3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.cpp.obj: \
-  H:/Разное/c/C-Colloquium/3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.cpp \
+CMakeFiles/introduction.dir/1_Introduction/introduction.cpp.obj: \
+  H:/Разное/c/C-Colloquium/1_Introduction/introduction.cpp \
   C:/Users/user/.utils/llvm-mingw/include/c++/v1/iostream \
   C:/Users/user/.utils/llvm-mingw/include/c++/v1/__config \
   C:/Users/user/.utils/llvm-mingw/include/c++/v1/__config_site \

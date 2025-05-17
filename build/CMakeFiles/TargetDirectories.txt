@@ -1,3 +1,6 @@
+H:/Разное/c/C-Colloquium/build/CMakeFiles/introduction.dir
+H:/Разное/c/C-Colloquium/build/CMakeFiles/TypesOfData.dir
 H:/Разное/c/C-Colloquium/build/CMakeFiles/VariablesAndMemoryMemory.dir
+H:/Разное/c/C-Colloquium/build/CMakeFiles/IfOperator.dir
 H:/Разное/c/C-Colloquium/build/CMakeFiles/edit_cache.dir
 H:/Разное/c/C-Colloquium/build/CMakeFiles/rebuild_cache.dir
