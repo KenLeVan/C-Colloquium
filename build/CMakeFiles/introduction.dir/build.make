@@ -71,28 +71,28 @@ include CMakeFiles/introduction.dir/flags.make
 CMakeFiles/introduction.dir/codegen:
 .PHONY : CMakeFiles/introduction.dir/codegen
 
-CMakeFiles/introduction.dir/introduction/introduction.cpp.obj: CMakeFiles/introduction.dir/flags.make
-CMakeFiles/introduction.dir/introduction/introduction.cpp.obj: H:/Разное/c/C-Colloquium/introduction/introduction.cpp
-CMakeFiles/introduction.dir/introduction/introduction.cpp.obj: CMakeFiles/introduction.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/introduction.dir/introduction/introduction.cpp.obj"
-	C:\Users\user\.utils\llvm-mingw\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/introduction.dir/introduction/introduction.cpp.obj -MF CMakeFiles\introduction.dir\introduction\introduction.cpp.obj.d -o CMakeFiles\introduction.dir\introduction\introduction.cpp.obj -c H:\Разное\c\C-Colloquium\introduction\introduction.cpp
+CMakeFiles/introduction.dir/Introduction/introduction.cpp.obj: CMakeFiles/introduction.dir/flags.make
+CMakeFiles/introduction.dir/Introduction/introduction.cpp.obj: H:/Разное/c/C-Colloquium/Introduction/introduction.cpp
+CMakeFiles/introduction.dir/Introduction/introduction.cpp.obj: CMakeFiles/introduction.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/introduction.dir/Introduction/introduction.cpp.obj"
+	C:\Users\user\.utils\llvm-mingw\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/introduction.dir/Introduction/introduction.cpp.obj -MF CMakeFiles\introduction.dir\Introduction\introduction.cpp.obj.d -o CMakeFiles\introduction.dir\Introduction\introduction.cpp.obj -c H:\Разное\c\C-Colloquium\Introduction\introduction.cpp
 
-CMakeFiles/introduction.dir/introduction/introduction.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/introduction.dir/introduction/introduction.cpp.i"
-	C:\Users\user\.utils\llvm-mingw\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E H:\Разное\c\C-Colloquium\introduction\introduction.cpp > CMakeFiles\introduction.dir\introduction\introduction.cpp.i
+CMakeFiles/introduction.dir/Introduction/introduction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/introduction.dir/Introduction/introduction.cpp.i"
+	C:\Users\user\.utils\llvm-mingw\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E H:\Разное\c\C-Colloquium\Introduction\introduction.cpp > CMakeFiles\introduction.dir\Introduction\introduction.cpp.i
 
-CMakeFiles/introduction.dir/introduction/introduction.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/introduction.dir/introduction/introduction.cpp.s"
-	C:\Users\user\.utils\llvm-mingw\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S H:\Разное\c\C-Colloquium\introduction\introduction.cpp -o CMakeFiles\introduction.dir\introduction\introduction.cpp.s
+CMakeFiles/introduction.dir/Introduction/introduction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/introduction.dir/Introduction/introduction.cpp.s"
+	C:\Users\user\.utils\llvm-mingw\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S H:\Разное\c\C-Colloquium\Introduction\introduction.cpp -o CMakeFiles\introduction.dir\Introduction\introduction.cpp.s
 
 # Object files for target introduction
 introduction_OBJECTS = \
-"CMakeFiles/introduction.dir/introduction/introduction.cpp.obj"
+"CMakeFiles/introduction.dir/Introduction/introduction.cpp.obj"
 
 # External object files for target introduction
 introduction_EXTERNAL_OBJECTS =
 
-introduction.exe: CMakeFiles/introduction.dir/introduction/introduction.cpp.obj
+introduction.exe: CMakeFiles/introduction.dir/Introduction/introduction.cpp.obj
 introduction.exe: CMakeFiles/introduction.dir/build.make
 introduction.exe: CMakeFiles/introduction.dir/linkLibs.rsp
 introduction.exe: CMakeFiles/introduction.dir/objects1.rsp

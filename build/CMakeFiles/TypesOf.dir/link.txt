@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\TypesOf.dir/objects.a
+C:\Users\user\.utils\llvm-mingw\bin\llvm-ar.exe qc CMakeFiles\TypesOf.dir/objects.a @CMakeFiles\TypesOf.dir\objects1.rsp
+C:\Users\user\.utils\llvm-mingw\bin\clang++.exe -g -O0 -Wall -Wl,--whole-archive CMakeFiles\TypesOf.dir/objects.a -Wl,--no-whole-archive -o TypesOf.exe -Wl,--out-implib,libTypesOf.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\TypesOf.dir\linkLibs.rsp

@@ -62,11 +62,11 @@ CMAKE_BINARY_DIR = H:\Разное\c\C-Colloquium\build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/introduction.dir/all
+all: CMakeFiles/TypesOfData.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/introduction.dir/codegen
+codegen: CMakeFiles/TypesOfData.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -74,40 +74,40 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/introduction.dir/clean
+clean: CMakeFiles/TypesOfData.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/introduction.dir
+# Target rules for target CMakeFiles/TypesOfData.dir
 
 # All Build rule for target.
-CMakeFiles/introduction.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\introduction.dir\build.make CMakeFiles/introduction.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\introduction.dir\build.make CMakeFiles/introduction.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=1,2 "Built target introduction"
-.PHONY : CMakeFiles/introduction.dir/all
+CMakeFiles/TypesOfData.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TypesOfData.dir\build.make CMakeFiles/TypesOfData.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TypesOfData.dir\build.make CMakeFiles/TypesOfData.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=1,2 "Built target TypesOfData"
+.PHONY : CMakeFiles/TypesOfData.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/introduction.dir/rule: cmake_check_build_system
+CMakeFiles/TypesOfData.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start H:\Разное\c\C-Colloquium\build\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/introduction.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/TypesOfData.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start H:\Разное\c\C-Colloquium\build\CMakeFiles 0
-.PHONY : CMakeFiles/introduction.dir/rule
+.PHONY : CMakeFiles/TypesOfData.dir/rule
 
 # Convenience name for target.
-introduction: CMakeFiles/introduction.dir/rule
-.PHONY : introduction
+TypesOfData: CMakeFiles/TypesOfData.dir/rule
+.PHONY : TypesOfData
 
 # codegen rule for target.
-CMakeFiles/introduction.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\introduction.dir\build.make CMakeFiles/introduction.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=1,2 "Finished codegen for target introduction"
-.PHONY : CMakeFiles/introduction.dir/codegen
+CMakeFiles/TypesOfData.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TypesOfData.dir\build.make CMakeFiles/TypesOfData.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=1,2 "Finished codegen for target TypesOfData"
+.PHONY : CMakeFiles/TypesOfData.dir/codegen
 
 # clean rule for target.
-CMakeFiles/introduction.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\introduction.dir\build.make CMakeFiles/introduction.dir/clean
-.PHONY : CMakeFiles/introduction.dir/clean
+CMakeFiles/TypesOfData.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TypesOfData.dir\build.make CMakeFiles/TypesOfData.dir/clean
+.PHONY : CMakeFiles/TypesOfData.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

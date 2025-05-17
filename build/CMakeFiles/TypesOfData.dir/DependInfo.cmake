@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "H:/Разное/c/C-Colloquium/Introduction/introduction.cpp" "CMakeFiles/introduction.dir/Introduction/introduction.cpp.obj" "gcc" "CMakeFiles/introduction.dir/Introduction/introduction.cpp.obj.d"
+  "H:/Разное/c/C-Colloquium/2_FundamentalTypesOfData/TypesOfData.cpp" "CMakeFiles/TypesOfData.dir/2_FundamentalTypesOfData/TypesOfData.cpp.obj" "gcc" "CMakeFiles/TypesOfData.dir/2_FundamentalTypesOfData/TypesOfData.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

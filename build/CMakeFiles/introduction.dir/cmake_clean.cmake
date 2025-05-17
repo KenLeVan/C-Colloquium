@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/introduction.dir/introduction/introduction.cpp.obj"
-  "CMakeFiles/introduction.dir/introduction/introduction.cpp.obj.d"
+  "CMakeFiles/introduction.dir/Introduction/introduction.cpp.obj"
+  "CMakeFiles/introduction.dir/Introduction/introduction.cpp.obj.d"
   "introduction.exe"
   "introduction.exe.manifest"
   "introduction.pdb"
