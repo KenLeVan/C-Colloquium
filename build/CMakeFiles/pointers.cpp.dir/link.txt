@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\pointers.cpp.dir/objects.a
+C:\Users\user\.utils\llvm-mingw\bin\llvm-ar.exe qc CMakeFiles\pointers.cpp.dir/objects.a @CMakeFiles\pointers.cpp.dir\objects1.rsp
+C:\Users\user\.utils\llvm-mingw\bin\clang++.exe -g -O0 -Wall -Wl,--whole-archive CMakeFiles\pointers.cpp.dir/objects.a -Wl,--no-whole-archive -o pointers.cpp.exe -Wl,--out-implib,libpointers.cpp.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\pointers.cpp.dir\linkLibs.rsp

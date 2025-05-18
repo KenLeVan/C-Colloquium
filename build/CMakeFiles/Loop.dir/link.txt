@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\Loop.dir/objects.a
+C:\Users\user\.utils\llvm-mingw\bin\llvm-ar.exe qc CMakeFiles\Loop.dir/objects.a @CMakeFiles\Loop.dir\objects1.rsp
+C:\Users\user\.utils\llvm-mingw\bin\clang++.exe -g -O0 -Wall -Wl,--whole-archive CMakeFiles\Loop.dir/objects.a -Wl,--no-whole-archive -o Loop.exe -Wl,--out-implib,libLoop.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Loop.dir\linkLibs.rsp

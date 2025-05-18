@@ -123,152 +123,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named introduction
+# Target rules for targets named Pointers
 
 # Build rule for target.
-introduction: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 introduction
-.PHONY : introduction
+Pointers: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Pointers
+.PHONY : Pointers
 
 # fast build rule for target.
-introduction/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\introduction.dir\build.make CMakeFiles/introduction.dir/build
-.PHONY : introduction/fast
+Pointers/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pointers.dir\build.make CMakeFiles/Pointers.dir/build
+.PHONY : Pointers/fast
 
-#=============================================================================
-# Target rules for targets named TypesOfData
-
-# Build rule for target.
-TypesOfData: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 TypesOfData
-.PHONY : TypesOfData
-
-# fast build rule for target.
-TypesOfData/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TypesOfData.dir\build.make CMakeFiles/TypesOfData.dir/build
-.PHONY : TypesOfData/fast
-
-#=============================================================================
-# Target rules for targets named VariablesAndMemoryMemory
-
-# Build rule for target.
-VariablesAndMemoryMemory: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 VariablesAndMemoryMemory
-.PHONY : VariablesAndMemoryMemory
-
-# fast build rule for target.
-VariablesAndMemoryMemory/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\VariablesAndMemoryMemory.dir\build.make CMakeFiles/VariablesAndMemoryMemory.dir/build
-.PHONY : VariablesAndMemoryMemory/fast
-
-#=============================================================================
-# Target rules for targets named IfOperator
-
-# Build rule for target.
-IfOperator: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 IfOperator
-.PHONY : IfOperator
-
-# fast build rule for target.
-IfOperator/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\IfOperator.dir\build.make CMakeFiles/IfOperator.dir/build
-.PHONY : IfOperator/fast
-
-1_Introduction/introduction.obj: 1_Introduction/introduction.cpp.obj
-.PHONY : 1_Introduction/introduction.obj
+6_Pointers/Pointers.obj: 6_Pointers/Pointers.cpp.obj
+.PHONY : 6_Pointers/Pointers.obj
 
 # target to build an object file
-1_Introduction/introduction.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\introduction.dir\build.make CMakeFiles/introduction.dir/1_Introduction/introduction.cpp.obj
-.PHONY : 1_Introduction/introduction.cpp.obj
+6_Pointers/Pointers.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pointers.dir\build.make CMakeFiles/Pointers.dir/6_Pointers/Pointers.cpp.obj
+.PHONY : 6_Pointers/Pointers.cpp.obj
 
-1_Introduction/introduction.i: 1_Introduction/introduction.cpp.i
-.PHONY : 1_Introduction/introduction.i
-
-# target to preprocess a source file
-1_Introduction/introduction.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\introduction.dir\build.make CMakeFiles/introduction.dir/1_Introduction/introduction.cpp.i
-.PHONY : 1_Introduction/introduction.cpp.i
-
-1_Introduction/introduction.s: 1_Introduction/introduction.cpp.s
-.PHONY : 1_Introduction/introduction.s
-
-# target to generate assembly for a file
-1_Introduction/introduction.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\introduction.dir\build.make CMakeFiles/introduction.dir/1_Introduction/introduction.cpp.s
-.PHONY : 1_Introduction/introduction.cpp.s
-
-2_FundamentalTypesOfData/TypesOfData.obj: 2_FundamentalTypesOfData/TypesOfData.cpp.obj
-.PHONY : 2_FundamentalTypesOfData/TypesOfData.obj
-
-# target to build an object file
-2_FundamentalTypesOfData/TypesOfData.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TypesOfData.dir\build.make CMakeFiles/TypesOfData.dir/2_FundamentalTypesOfData/TypesOfData.cpp.obj
-.PHONY : 2_FundamentalTypesOfData/TypesOfData.cpp.obj
-
-2_FundamentalTypesOfData/TypesOfData.i: 2_FundamentalTypesOfData/TypesOfData.cpp.i
-.PHONY : 2_FundamentalTypesOfData/TypesOfData.i
+6_Pointers/Pointers.i: 6_Pointers/Pointers.cpp.i
+.PHONY : 6_Pointers/Pointers.i
 
 # target to preprocess a source file
-2_FundamentalTypesOfData/TypesOfData.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TypesOfData.dir\build.make CMakeFiles/TypesOfData.dir/2_FundamentalTypesOfData/TypesOfData.cpp.i
-.PHONY : 2_FundamentalTypesOfData/TypesOfData.cpp.i
+6_Pointers/Pointers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pointers.dir\build.make CMakeFiles/Pointers.dir/6_Pointers/Pointers.cpp.i
+.PHONY : 6_Pointers/Pointers.cpp.i
 
-2_FundamentalTypesOfData/TypesOfData.s: 2_FundamentalTypesOfData/TypesOfData.cpp.s
-.PHONY : 2_FundamentalTypesOfData/TypesOfData.s
-
-# target to generate assembly for a file
-2_FundamentalTypesOfData/TypesOfData.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TypesOfData.dir\build.make CMakeFiles/TypesOfData.dir/2_FundamentalTypesOfData/TypesOfData.cpp.s
-.PHONY : 2_FundamentalTypesOfData/TypesOfData.cpp.s
-
-3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.obj: 3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.cpp.obj
-.PHONY : 3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.obj
-
-# target to build an object file
-3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\VariablesAndMemoryMemory.dir\build.make CMakeFiles/VariablesAndMemoryMemory.dir/3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.cpp.obj
-.PHONY : 3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.cpp.obj
-
-3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.i: 3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.cpp.i
-.PHONY : 3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.i
-
-# target to preprocess a source file
-3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\VariablesAndMemoryMemory.dir\build.make CMakeFiles/VariablesAndMemoryMemory.dir/3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.cpp.i
-.PHONY : 3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.cpp.i
-
-3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.s: 3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.cpp.s
-.PHONY : 3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.s
+6_Pointers/Pointers.s: 6_Pointers/Pointers.cpp.s
+.PHONY : 6_Pointers/Pointers.s
 
 # target to generate assembly for a file
-3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\VariablesAndMemoryMemory.dir\build.make CMakeFiles/VariablesAndMemoryMemory.dir/3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.cpp.s
-.PHONY : 3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.cpp.s
-
-4_IfOperator/IfOperator.obj: 4_IfOperator/IfOperator.cpp.obj
-.PHONY : 4_IfOperator/IfOperator.obj
-
-# target to build an object file
-4_IfOperator/IfOperator.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\IfOperator.dir\build.make CMakeFiles/IfOperator.dir/4_IfOperator/IfOperator.cpp.obj
-.PHONY : 4_IfOperator/IfOperator.cpp.obj
-
-4_IfOperator/IfOperator.i: 4_IfOperator/IfOperator.cpp.i
-.PHONY : 4_IfOperator/IfOperator.i
-
-# target to preprocess a source file
-4_IfOperator/IfOperator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\IfOperator.dir\build.make CMakeFiles/IfOperator.dir/4_IfOperator/IfOperator.cpp.i
-.PHONY : 4_IfOperator/IfOperator.cpp.i
-
-4_IfOperator/IfOperator.s: 4_IfOperator/IfOperator.cpp.s
-.PHONY : 4_IfOperator/IfOperator.s
-
-# target to generate assembly for a file
-4_IfOperator/IfOperator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\IfOperator.dir\build.make CMakeFiles/IfOperator.dir/4_IfOperator/IfOperator.cpp.s
-.PHONY : 4_IfOperator/IfOperator.cpp.s
+6_Pointers/Pointers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pointers.dir\build.make CMakeFiles/Pointers.dir/6_Pointers/Pointers.cpp.s
+.PHONY : 6_Pointers/Pointers.cpp.s
 
 # Help Target
 help:
@@ -279,22 +168,10 @@ help:
 	@echo ... codegen
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... IfOperator
-	@echo ... TypesOfData
-	@echo ... VariablesAndMemoryMemory
-	@echo ... introduction
-	@echo ... 1_Introduction/introduction.obj
-	@echo ... 1_Introduction/introduction.i
-	@echo ... 1_Introduction/introduction.s
-	@echo ... 2_FundamentalTypesOfData/TypesOfData.obj
-	@echo ... 2_FundamentalTypesOfData/TypesOfData.i
-	@echo ... 2_FundamentalTypesOfData/TypesOfData.s
-	@echo ... 3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.obj
-	@echo ... 3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.i
-	@echo ... 3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.s
-	@echo ... 4_IfOperator/IfOperator.obj
-	@echo ... 4_IfOperator/IfOperator.i
-	@echo ... 4_IfOperator/IfOperator.s
+	@echo ... Pointers
+	@echo ... 6_Pointers/Pointers.obj
+	@echo ... 6_Pointers/Pointers.i
+	@echo ... 6_Pointers/Pointers.s
 .PHONY : help
 
 
