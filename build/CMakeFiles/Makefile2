@@ -62,11 +62,11 @@ CMAKE_BINARY_DIR = H:\Разное\c\C-Colloquium\build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Pointers.dir/all
+all: CMakeFiles/oop.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/Pointers.dir/codegen
+codegen: CMakeFiles/oop.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -74,40 +74,40 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Pointers.dir/clean
+clean: CMakeFiles/oop.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Pointers.dir
+# Target rules for target CMakeFiles/oop.dir
 
 # All Build rule for target.
-CMakeFiles/Pointers.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pointers.dir\build.make CMakeFiles/Pointers.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pointers.dir\build.make CMakeFiles/Pointers.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=1,2 "Built target Pointers"
-.PHONY : CMakeFiles/Pointers.dir/all
+CMakeFiles/oop.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop.dir\build.make CMakeFiles/oop.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop.dir\build.make CMakeFiles/oop.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=1,2 "Built target oop"
+.PHONY : CMakeFiles/oop.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Pointers.dir/rule: cmake_check_build_system
+CMakeFiles/oop.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start H:\Разное\c\C-Colloquium\build\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Pointers.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/oop.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start H:\Разное\c\C-Colloquium\build\CMakeFiles 0
-.PHONY : CMakeFiles/Pointers.dir/rule
+.PHONY : CMakeFiles/oop.dir/rule
 
 # Convenience name for target.
-Pointers: CMakeFiles/Pointers.dir/rule
-.PHONY : Pointers
+oop: CMakeFiles/oop.dir/rule
+.PHONY : oop
 
 # codegen rule for target.
-CMakeFiles/Pointers.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pointers.dir\build.make CMakeFiles/Pointers.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=1,2 "Finished codegen for target Pointers"
-.PHONY : CMakeFiles/Pointers.dir/codegen
+CMakeFiles/oop.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop.dir\build.make CMakeFiles/oop.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=1,2 "Finished codegen for target oop"
+.PHONY : CMakeFiles/oop.dir/codegen
 
 # clean rule for target.
-CMakeFiles/Pointers.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pointers.dir\build.make CMakeFiles/Pointers.dir/clean
-.PHONY : CMakeFiles/Pointers.dir/clean
+CMakeFiles/oop.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop.dir\build.make CMakeFiles/oop.dir/clean
+.PHONY : CMakeFiles/oop.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

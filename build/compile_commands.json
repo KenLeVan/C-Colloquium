@@ -1,8 +1,8 @@
 [
 {
   "directory": "H:/Разное/c/C-Colloquium/build",
-  "command": "C:\\Users\\user\\.utils\\llvm-mingw\\bin\\clang++.exe   -g -O0 -Wall -std=gnu++20 -o CMakeFiles\\Pointers.dir\\6_Pointers\\Pointers.cpp.obj -c H:\\Разное\\c\\C-Colloquium\\6_Pointers\\Pointers.cpp",
-  "file": "H:/Разное/c/C-Colloquium/6_Pointers/Pointers.cpp",
-  "output": "CMakeFiles/Pointers.dir/6_Pointers/Pointers.cpp.obj"
+  "command": "C:\\Users\\user\\.utils\\llvm-mingw\\bin\\clang++.exe   -g -O0 -Wall -std=gnu++20 -o CMakeFiles\\oop.dir\\12_OOP\\oop.cpp.obj -c H:\\Разное\\c\\C-Colloquium\\12_OOP\\oop.cpp",
+  "file": "H:/Разное/c/C-Colloquium/12_OOP/oop.cpp",
+  "output": "CMakeFiles/oop.dir/12_OOP/oop.cpp.obj"
 }
 ]

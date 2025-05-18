@@ -123,41 +123,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Pointers
+# Target rules for targets named oop
 
 # Build rule for target.
-Pointers: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Pointers
-.PHONY : Pointers
+oop: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 oop
+.PHONY : oop
 
 # fast build rule for target.
-Pointers/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pointers.dir\build.make CMakeFiles/Pointers.dir/build
-.PHONY : Pointers/fast
+oop/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop.dir\build.make CMakeFiles/oop.dir/build
+.PHONY : oop/fast
 
-6_Pointers/Pointers.obj: 6_Pointers/Pointers.cpp.obj
-.PHONY : 6_Pointers/Pointers.obj
+12_OOP/oop.obj: 12_OOP/oop.cpp.obj
+.PHONY : 12_OOP/oop.obj
 
 # target to build an object file
-6_Pointers/Pointers.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pointers.dir\build.make CMakeFiles/Pointers.dir/6_Pointers/Pointers.cpp.obj
-.PHONY : 6_Pointers/Pointers.cpp.obj
+12_OOP/oop.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop.dir\build.make CMakeFiles/oop.dir/12_OOP/oop.cpp.obj
+.PHONY : 12_OOP/oop.cpp.obj
 
-6_Pointers/Pointers.i: 6_Pointers/Pointers.cpp.i
-.PHONY : 6_Pointers/Pointers.i
+12_OOP/oop.i: 12_OOP/oop.cpp.i
+.PHONY : 12_OOP/oop.i
 
 # target to preprocess a source file
-6_Pointers/Pointers.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pointers.dir\build.make CMakeFiles/Pointers.dir/6_Pointers/Pointers.cpp.i
-.PHONY : 6_Pointers/Pointers.cpp.i
+12_OOP/oop.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop.dir\build.make CMakeFiles/oop.dir/12_OOP/oop.cpp.i
+.PHONY : 12_OOP/oop.cpp.i
 
-6_Pointers/Pointers.s: 6_Pointers/Pointers.cpp.s
-.PHONY : 6_Pointers/Pointers.s
+12_OOP/oop.s: 12_OOP/oop.cpp.s
+.PHONY : 12_OOP/oop.s
 
 # target to generate assembly for a file
-6_Pointers/Pointers.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pointers.dir\build.make CMakeFiles/Pointers.dir/6_Pointers/Pointers.cpp.s
-.PHONY : 6_Pointers/Pointers.cpp.s
+12_OOP/oop.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop.dir\build.make CMakeFiles/oop.dir/12_OOP/oop.cpp.s
+.PHONY : 12_OOP/oop.cpp.s
 
 # Help Target
 help:
@@ -168,10 +168,10 @@ help:
 	@echo ... codegen
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Pointers
-	@echo ... 6_Pointers/Pointers.obj
-	@echo ... 6_Pointers/Pointers.i
-	@echo ... 6_Pointers/Pointers.s
+	@echo ... oop
+	@echo ... 12_OOP/oop.obj
+	@echo ... 12_OOP/oop.i
+	@echo ... 12_OOP/oop.s
 .PHONY : help
 
 
