@@ -123,6 +123,149 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named introduction
+
+# Build rule for target.
+introduction: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 introduction
+.PHONY : introduction
+
+# fast build rule for target.
+introduction/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\introduction.dir\build.make CMakeFiles/introduction.dir/build
+.PHONY : introduction/fast
+
+#=============================================================================
+# Target rules for targets named TypesOfData
+
+# Build rule for target.
+TypesOfData: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 TypesOfData
+.PHONY : TypesOfData
+
+# fast build rule for target.
+TypesOfData/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TypesOfData.dir\build.make CMakeFiles/TypesOfData.dir/build
+.PHONY : TypesOfData/fast
+
+#=============================================================================
+# Target rules for targets named VariablesAndMemoryMemory
+
+# Build rule for target.
+VariablesAndMemoryMemory: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 VariablesAndMemoryMemory
+.PHONY : VariablesAndMemoryMemory
+
+# fast build rule for target.
+VariablesAndMemoryMemory/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VariablesAndMemoryMemory.dir\build.make CMakeFiles/VariablesAndMemoryMemory.dir/build
+.PHONY : VariablesAndMemoryMemory/fast
+
+#=============================================================================
+# Target rules for targets named IfOperator
+
+# Build rule for target.
+IfOperator: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 IfOperator
+.PHONY : IfOperator
+
+# fast build rule for target.
+IfOperator/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IfOperator.dir\build.make CMakeFiles/IfOperator.dir/build
+.PHONY : IfOperator/fast
+
+#=============================================================================
+# Target rules for targets named Loop
+
+# Build rule for target.
+Loop: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Loop
+.PHONY : Loop
+
+# fast build rule for target.
+Loop/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Loop.dir\build.make CMakeFiles/Loop.dir/build
+.PHONY : Loop/fast
+
+#=============================================================================
+# Target rules for targets named Pointers
+
+# Build rule for target.
+Pointers: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Pointers
+.PHONY : Pointers
+
+# fast build rule for target.
+Pointers/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pointers.dir\build.make CMakeFiles/Pointers.dir/build
+.PHONY : Pointers/fast
+
+#=============================================================================
+# Target rules for targets named address
+
+# Build rule for target.
+address: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 address
+.PHONY : address
+
+# fast build rule for target.
+address/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\address.dir\build.make CMakeFiles/address.dir/build
+.PHONY : address/fast
+
+#=============================================================================
+# Target rules for targets named array
+
+# Build rule for target.
+array: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 array
+.PHONY : array
+
+# fast build rule for target.
+array/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array.dir\build.make CMakeFiles/array.dir/build
+.PHONY : array/fast
+
+#=============================================================================
+# Target rules for targets named dynamicArr
+
+# Build rule for target.
+dynamicArr: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 dynamicArr
+.PHONY : dynamicArr
+
+# fast build rule for target.
+dynamicArr/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dynamicArr.dir\build.make CMakeFiles/dynamicArr.dir/build
+.PHONY : dynamicArr/fast
+
+#=============================================================================
+# Target rules for targets named functions
+
+# Build rule for target.
+functions: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 functions
+.PHONY : functions
+
+# fast build rule for target.
+functions/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\functions.dir\build.make CMakeFiles/functions.dir/build
+.PHONY : functions/fast
+
+#=============================================================================
+# Target rules for targets named usertypes
+
+# Build rule for target.
+usertypes: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 usertypes
+.PHONY : usertypes
+
+# fast build rule for target.
+usertypes/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\usertypes.dir\build.make CMakeFiles/usertypes.dir/build
+.PHONY : usertypes/fast
+
+#=============================================================================
 # Target rules for targets named oop
 
 # Build rule for target.
@@ -134,6 +277,158 @@ oop: cmake_check_build_system
 oop/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop.dir\build.make CMakeFiles/oop.dir/build
 .PHONY : oop/fast
+
+#=============================================================================
+# Target rules for targets named classes
+
+# Build rule for target.
+classes: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 classes
+.PHONY : classes
+
+# fast build rule for target.
+classes/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\classes.dir\build.make CMakeFiles/classes.dir/build
+.PHONY : classes/fast
+
+#=============================================================================
+# Target rules for targets named constructors
+
+# Build rule for target.
+constructors: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 constructors
+.PHONY : constructors
+
+# fast build rule for target.
+constructors/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\constructors.dir\build.make CMakeFiles/constructors.dir/build
+.PHONY : constructors/fast
+
+#=============================================================================
+# Target rules for targets named desctructor
+
+# Build rule for target.
+desctructor: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 desctructor
+.PHONY : desctructor
+
+# fast build rule for target.
+desctructor/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\desctructor.dir\build.make CMakeFiles/desctructor.dir/build
+.PHONY : desctructor/fast
+
+#=============================================================================
+# Target rules for targets named overloading
+
+# Build rule for target.
+overloading: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 overloading
+.PHONY : overloading
+
+# fast build rule for target.
+overloading/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\overloading.dir\build.make CMakeFiles/overloading.dir/build
+.PHONY : overloading/fast
+
+#=============================================================================
+# Target rules for targets named arrayvector
+
+# Build rule for target.
+arrayvector: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 arrayvector
+.PHONY : arrayvector
+
+# fast build rule for target.
+arrayvector/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arrayvector.dir\build.make CMakeFiles/arrayvector.dir/build
+.PHONY : arrayvector/fast
+
+#=============================================================================
+# Target rules for targets named associativecontainers
+
+# Build rule for target.
+associativecontainers: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 associativecontainers
+.PHONY : associativecontainers
+
+# fast build rule for target.
+associativecontainers/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\associativecontainers.dir\build.make CMakeFiles/associativecontainers.dir/build
+.PHONY : associativecontainers/fast
+
+#=============================================================================
+# Target rules for targets named stackqueue
+
+# Build rule for target.
+stackqueue: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 stackqueue
+.PHONY : stackqueue
+
+# fast build rule for target.
+stackqueue/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stackqueue.dir\build.make CMakeFiles/stackqueue.dir/build
+.PHONY : stackqueue/fast
+
+#=============================================================================
+# Target rules for targets named miscellaneous
+
+# Build rule for target.
+miscellaneous: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 miscellaneous
+.PHONY : miscellaneous
+
+# fast build rule for target.
+miscellaneous/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miscellaneous.dir\build.make CMakeFiles/miscellaneous.dir/build
+.PHONY : miscellaneous/fast
+
+10_Functions/functions.obj: 10_Functions/functions.cpp.obj
+.PHONY : 10_Functions/functions.obj
+
+# target to build an object file
+10_Functions/functions.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\functions.dir\build.make CMakeFiles/functions.dir/10_Functions/functions.cpp.obj
+.PHONY : 10_Functions/functions.cpp.obj
+
+10_Functions/functions.i: 10_Functions/functions.cpp.i
+.PHONY : 10_Functions/functions.i
+
+# target to preprocess a source file
+10_Functions/functions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\functions.dir\build.make CMakeFiles/functions.dir/10_Functions/functions.cpp.i
+.PHONY : 10_Functions/functions.cpp.i
+
+10_Functions/functions.s: 10_Functions/functions.cpp.s
+.PHONY : 10_Functions/functions.s
+
+# target to generate assembly for a file
+10_Functions/functions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\functions.dir\build.make CMakeFiles/functions.dir/10_Functions/functions.cpp.s
+.PHONY : 10_Functions/functions.cpp.s
+
+11_UserTypes/usertypes.obj: 11_UserTypes/usertypes.cpp.obj
+.PHONY : 11_UserTypes/usertypes.obj
+
+# target to build an object file
+11_UserTypes/usertypes.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\usertypes.dir\build.make CMakeFiles/usertypes.dir/11_UserTypes/usertypes.cpp.obj
+.PHONY : 11_UserTypes/usertypes.cpp.obj
+
+11_UserTypes/usertypes.i: 11_UserTypes/usertypes.cpp.i
+.PHONY : 11_UserTypes/usertypes.i
+
+# target to preprocess a source file
+11_UserTypes/usertypes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\usertypes.dir\build.make CMakeFiles/usertypes.dir/11_UserTypes/usertypes.cpp.i
+.PHONY : 11_UserTypes/usertypes.cpp.i
+
+11_UserTypes/usertypes.s: 11_UserTypes/usertypes.cpp.s
+.PHONY : 11_UserTypes/usertypes.s
+
+# target to generate assembly for a file
+11_UserTypes/usertypes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\usertypes.dir\build.make CMakeFiles/usertypes.dir/11_UserTypes/usertypes.cpp.s
+.PHONY : 11_UserTypes/usertypes.cpp.s
 
 12_OOP/oop.obj: 12_OOP/oop.cpp.obj
 .PHONY : 12_OOP/oop.obj
@@ -159,6 +454,414 @@ oop/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop.dir\build.make CMakeFiles/oop.dir/12_OOP/oop.cpp.s
 .PHONY : 12_OOP/oop.cpp.s
 
+13_Classes/classes.obj: 13_Classes/classes.cpp.obj
+.PHONY : 13_Classes/classes.obj
+
+# target to build an object file
+13_Classes/classes.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\classes.dir\build.make CMakeFiles/classes.dir/13_Classes/classes.cpp.obj
+.PHONY : 13_Classes/classes.cpp.obj
+
+13_Classes/classes.i: 13_Classes/classes.cpp.i
+.PHONY : 13_Classes/classes.i
+
+# target to preprocess a source file
+13_Classes/classes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\classes.dir\build.make CMakeFiles/classes.dir/13_Classes/classes.cpp.i
+.PHONY : 13_Classes/classes.cpp.i
+
+13_Classes/classes.s: 13_Classes/classes.cpp.s
+.PHONY : 13_Classes/classes.s
+
+# target to generate assembly for a file
+13_Classes/classes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\classes.dir\build.make CMakeFiles/classes.dir/13_Classes/classes.cpp.s
+.PHONY : 13_Classes/classes.cpp.s
+
+14_Constructors/constructors.obj: 14_Constructors/constructors.cpp.obj
+.PHONY : 14_Constructors/constructors.obj
+
+# target to build an object file
+14_Constructors/constructors.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\constructors.dir\build.make CMakeFiles/constructors.dir/14_Constructors/constructors.cpp.obj
+.PHONY : 14_Constructors/constructors.cpp.obj
+
+14_Constructors/constructors.i: 14_Constructors/constructors.cpp.i
+.PHONY : 14_Constructors/constructors.i
+
+# target to preprocess a source file
+14_Constructors/constructors.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\constructors.dir\build.make CMakeFiles/constructors.dir/14_Constructors/constructors.cpp.i
+.PHONY : 14_Constructors/constructors.cpp.i
+
+14_Constructors/constructors.s: 14_Constructors/constructors.cpp.s
+.PHONY : 14_Constructors/constructors.s
+
+# target to generate assembly for a file
+14_Constructors/constructors.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\constructors.dir\build.make CMakeFiles/constructors.dir/14_Constructors/constructors.cpp.s
+.PHONY : 14_Constructors/constructors.cpp.s
+
+15_Desctructor/desctructor.obj: 15_Desctructor/desctructor.cpp.obj
+.PHONY : 15_Desctructor/desctructor.obj
+
+# target to build an object file
+15_Desctructor/desctructor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\desctructor.dir\build.make CMakeFiles/desctructor.dir/15_Desctructor/desctructor.cpp.obj
+.PHONY : 15_Desctructor/desctructor.cpp.obj
+
+15_Desctructor/desctructor.i: 15_Desctructor/desctructor.cpp.i
+.PHONY : 15_Desctructor/desctructor.i
+
+# target to preprocess a source file
+15_Desctructor/desctructor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\desctructor.dir\build.make CMakeFiles/desctructor.dir/15_Desctructor/desctructor.cpp.i
+.PHONY : 15_Desctructor/desctructor.cpp.i
+
+15_Desctructor/desctructor.s: 15_Desctructor/desctructor.cpp.s
+.PHONY : 15_Desctructor/desctructor.s
+
+# target to generate assembly for a file
+15_Desctructor/desctructor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\desctructor.dir\build.make CMakeFiles/desctructor.dir/15_Desctructor/desctructor.cpp.s
+.PHONY : 15_Desctructor/desctructor.cpp.s
+
+16_Overloading/overloading.obj: 16_Overloading/overloading.cpp.obj
+.PHONY : 16_Overloading/overloading.obj
+
+# target to build an object file
+16_Overloading/overloading.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\overloading.dir\build.make CMakeFiles/overloading.dir/16_Overloading/overloading.cpp.obj
+.PHONY : 16_Overloading/overloading.cpp.obj
+
+16_Overloading/overloading.i: 16_Overloading/overloading.cpp.i
+.PHONY : 16_Overloading/overloading.i
+
+# target to preprocess a source file
+16_Overloading/overloading.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\overloading.dir\build.make CMakeFiles/overloading.dir/16_Overloading/overloading.cpp.i
+.PHONY : 16_Overloading/overloading.cpp.i
+
+16_Overloading/overloading.s: 16_Overloading/overloading.cpp.s
+.PHONY : 16_Overloading/overloading.s
+
+# target to generate assembly for a file
+16_Overloading/overloading.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\overloading.dir\build.make CMakeFiles/overloading.dir/16_Overloading/overloading.cpp.s
+.PHONY : 16_Overloading/overloading.cpp.s
+
+17_ArrayVector/arrayvector.obj: 17_ArrayVector/arrayvector.cpp.obj
+.PHONY : 17_ArrayVector/arrayvector.obj
+
+# target to build an object file
+17_ArrayVector/arrayvector.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arrayvector.dir\build.make CMakeFiles/arrayvector.dir/17_ArrayVector/arrayvector.cpp.obj
+.PHONY : 17_ArrayVector/arrayvector.cpp.obj
+
+17_ArrayVector/arrayvector.i: 17_ArrayVector/arrayvector.cpp.i
+.PHONY : 17_ArrayVector/arrayvector.i
+
+# target to preprocess a source file
+17_ArrayVector/arrayvector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arrayvector.dir\build.make CMakeFiles/arrayvector.dir/17_ArrayVector/arrayvector.cpp.i
+.PHONY : 17_ArrayVector/arrayvector.cpp.i
+
+17_ArrayVector/arrayvector.s: 17_ArrayVector/arrayvector.cpp.s
+.PHONY : 17_ArrayVector/arrayvector.s
+
+# target to generate assembly for a file
+17_ArrayVector/arrayvector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arrayvector.dir\build.make CMakeFiles/arrayvector.dir/17_ArrayVector/arrayvector.cpp.s
+.PHONY : 17_ArrayVector/arrayvector.cpp.s
+
+18_AssociativeContainers/associativecontainers.obj: 18_AssociativeContainers/associativecontainers.cpp.obj
+.PHONY : 18_AssociativeContainers/associativecontainers.obj
+
+# target to build an object file
+18_AssociativeContainers/associativecontainers.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\associativecontainers.dir\build.make CMakeFiles/associativecontainers.dir/18_AssociativeContainers/associativecontainers.cpp.obj
+.PHONY : 18_AssociativeContainers/associativecontainers.cpp.obj
+
+18_AssociativeContainers/associativecontainers.i: 18_AssociativeContainers/associativecontainers.cpp.i
+.PHONY : 18_AssociativeContainers/associativecontainers.i
+
+# target to preprocess a source file
+18_AssociativeContainers/associativecontainers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\associativecontainers.dir\build.make CMakeFiles/associativecontainers.dir/18_AssociativeContainers/associativecontainers.cpp.i
+.PHONY : 18_AssociativeContainers/associativecontainers.cpp.i
+
+18_AssociativeContainers/associativecontainers.s: 18_AssociativeContainers/associativecontainers.cpp.s
+.PHONY : 18_AssociativeContainers/associativecontainers.s
+
+# target to generate assembly for a file
+18_AssociativeContainers/associativecontainers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\associativecontainers.dir\build.make CMakeFiles/associativecontainers.dir/18_AssociativeContainers/associativecontainers.cpp.s
+.PHONY : 18_AssociativeContainers/associativecontainers.cpp.s
+
+19_StackQueue/stackqueue.obj: 19_StackQueue/stackqueue.cpp.obj
+.PHONY : 19_StackQueue/stackqueue.obj
+
+# target to build an object file
+19_StackQueue/stackqueue.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stackqueue.dir\build.make CMakeFiles/stackqueue.dir/19_StackQueue/stackqueue.cpp.obj
+.PHONY : 19_StackQueue/stackqueue.cpp.obj
+
+19_StackQueue/stackqueue.i: 19_StackQueue/stackqueue.cpp.i
+.PHONY : 19_StackQueue/stackqueue.i
+
+# target to preprocess a source file
+19_StackQueue/stackqueue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stackqueue.dir\build.make CMakeFiles/stackqueue.dir/19_StackQueue/stackqueue.cpp.i
+.PHONY : 19_StackQueue/stackqueue.cpp.i
+
+19_StackQueue/stackqueue.s: 19_StackQueue/stackqueue.cpp.s
+.PHONY : 19_StackQueue/stackqueue.s
+
+# target to generate assembly for a file
+19_StackQueue/stackqueue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stackqueue.dir\build.make CMakeFiles/stackqueue.dir/19_StackQueue/stackqueue.cpp.s
+.PHONY : 19_StackQueue/stackqueue.cpp.s
+
+1_Introduction/introduction.obj: 1_Introduction/introduction.cpp.obj
+.PHONY : 1_Introduction/introduction.obj
+
+# target to build an object file
+1_Introduction/introduction.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\introduction.dir\build.make CMakeFiles/introduction.dir/1_Introduction/introduction.cpp.obj
+.PHONY : 1_Introduction/introduction.cpp.obj
+
+1_Introduction/introduction.i: 1_Introduction/introduction.cpp.i
+.PHONY : 1_Introduction/introduction.i
+
+# target to preprocess a source file
+1_Introduction/introduction.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\introduction.dir\build.make CMakeFiles/introduction.dir/1_Introduction/introduction.cpp.i
+.PHONY : 1_Introduction/introduction.cpp.i
+
+1_Introduction/introduction.s: 1_Introduction/introduction.cpp.s
+.PHONY : 1_Introduction/introduction.s
+
+# target to generate assembly for a file
+1_Introduction/introduction.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\introduction.dir\build.make CMakeFiles/introduction.dir/1_Introduction/introduction.cpp.s
+.PHONY : 1_Introduction/introduction.cpp.s
+
+20_Miscellaneous/miscellaneous.obj: 20_Miscellaneous/miscellaneous.cpp.obj
+.PHONY : 20_Miscellaneous/miscellaneous.obj
+
+# target to build an object file
+20_Miscellaneous/miscellaneous.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miscellaneous.dir\build.make CMakeFiles/miscellaneous.dir/20_Miscellaneous/miscellaneous.cpp.obj
+.PHONY : 20_Miscellaneous/miscellaneous.cpp.obj
+
+20_Miscellaneous/miscellaneous.i: 20_Miscellaneous/miscellaneous.cpp.i
+.PHONY : 20_Miscellaneous/miscellaneous.i
+
+# target to preprocess a source file
+20_Miscellaneous/miscellaneous.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miscellaneous.dir\build.make CMakeFiles/miscellaneous.dir/20_Miscellaneous/miscellaneous.cpp.i
+.PHONY : 20_Miscellaneous/miscellaneous.cpp.i
+
+20_Miscellaneous/miscellaneous.s: 20_Miscellaneous/miscellaneous.cpp.s
+.PHONY : 20_Miscellaneous/miscellaneous.s
+
+# target to generate assembly for a file
+20_Miscellaneous/miscellaneous.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miscellaneous.dir\build.make CMakeFiles/miscellaneous.dir/20_Miscellaneous/miscellaneous.cpp.s
+.PHONY : 20_Miscellaneous/miscellaneous.cpp.s
+
+2_FundamentalTypesOfData/TypesOfData.obj: 2_FundamentalTypesOfData/TypesOfData.cpp.obj
+.PHONY : 2_FundamentalTypesOfData/TypesOfData.obj
+
+# target to build an object file
+2_FundamentalTypesOfData/TypesOfData.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TypesOfData.dir\build.make CMakeFiles/TypesOfData.dir/2_FundamentalTypesOfData/TypesOfData.cpp.obj
+.PHONY : 2_FundamentalTypesOfData/TypesOfData.cpp.obj
+
+2_FundamentalTypesOfData/TypesOfData.i: 2_FundamentalTypesOfData/TypesOfData.cpp.i
+.PHONY : 2_FundamentalTypesOfData/TypesOfData.i
+
+# target to preprocess a source file
+2_FundamentalTypesOfData/TypesOfData.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TypesOfData.dir\build.make CMakeFiles/TypesOfData.dir/2_FundamentalTypesOfData/TypesOfData.cpp.i
+.PHONY : 2_FundamentalTypesOfData/TypesOfData.cpp.i
+
+2_FundamentalTypesOfData/TypesOfData.s: 2_FundamentalTypesOfData/TypesOfData.cpp.s
+.PHONY : 2_FundamentalTypesOfData/TypesOfData.s
+
+# target to generate assembly for a file
+2_FundamentalTypesOfData/TypesOfData.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TypesOfData.dir\build.make CMakeFiles/TypesOfData.dir/2_FundamentalTypesOfData/TypesOfData.cpp.s
+.PHONY : 2_FundamentalTypesOfData/TypesOfData.cpp.s
+
+3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.obj: 3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.cpp.obj
+.PHONY : 3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.obj
+
+# target to build an object file
+3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VariablesAndMemoryMemory.dir\build.make CMakeFiles/VariablesAndMemoryMemory.dir/3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.cpp.obj
+.PHONY : 3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.cpp.obj
+
+3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.i: 3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.cpp.i
+.PHONY : 3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.i
+
+# target to preprocess a source file
+3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VariablesAndMemoryMemory.dir\build.make CMakeFiles/VariablesAndMemoryMemory.dir/3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.cpp.i
+.PHONY : 3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.cpp.i
+
+3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.s: 3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.cpp.s
+.PHONY : 3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.s
+
+# target to generate assembly for a file
+3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VariablesAndMemoryMemory.dir\build.make CMakeFiles/VariablesAndMemoryMemory.dir/3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.cpp.s
+.PHONY : 3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.cpp.s
+
+4_IfOperator/IfOperator.obj: 4_IfOperator/IfOperator.cpp.obj
+.PHONY : 4_IfOperator/IfOperator.obj
+
+# target to build an object file
+4_IfOperator/IfOperator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IfOperator.dir\build.make CMakeFiles/IfOperator.dir/4_IfOperator/IfOperator.cpp.obj
+.PHONY : 4_IfOperator/IfOperator.cpp.obj
+
+4_IfOperator/IfOperator.i: 4_IfOperator/IfOperator.cpp.i
+.PHONY : 4_IfOperator/IfOperator.i
+
+# target to preprocess a source file
+4_IfOperator/IfOperator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IfOperator.dir\build.make CMakeFiles/IfOperator.dir/4_IfOperator/IfOperator.cpp.i
+.PHONY : 4_IfOperator/IfOperator.cpp.i
+
+4_IfOperator/IfOperator.s: 4_IfOperator/IfOperator.cpp.s
+.PHONY : 4_IfOperator/IfOperator.s
+
+# target to generate assembly for a file
+4_IfOperator/IfOperator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IfOperator.dir\build.make CMakeFiles/IfOperator.dir/4_IfOperator/IfOperator.cpp.s
+.PHONY : 4_IfOperator/IfOperator.cpp.s
+
+5_Loop/Loop.obj: 5_Loop/Loop.cpp.obj
+.PHONY : 5_Loop/Loop.obj
+
+# target to build an object file
+5_Loop/Loop.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Loop.dir\build.make CMakeFiles/Loop.dir/5_Loop/Loop.cpp.obj
+.PHONY : 5_Loop/Loop.cpp.obj
+
+5_Loop/Loop.i: 5_Loop/Loop.cpp.i
+.PHONY : 5_Loop/Loop.i
+
+# target to preprocess a source file
+5_Loop/Loop.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Loop.dir\build.make CMakeFiles/Loop.dir/5_Loop/Loop.cpp.i
+.PHONY : 5_Loop/Loop.cpp.i
+
+5_Loop/Loop.s: 5_Loop/Loop.cpp.s
+.PHONY : 5_Loop/Loop.s
+
+# target to generate assembly for a file
+5_Loop/Loop.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Loop.dir\build.make CMakeFiles/Loop.dir/5_Loop/Loop.cpp.s
+.PHONY : 5_Loop/Loop.cpp.s
+
+6_Pointers/Pointers.obj: 6_Pointers/Pointers.cpp.obj
+.PHONY : 6_Pointers/Pointers.obj
+
+# target to build an object file
+6_Pointers/Pointers.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pointers.dir\build.make CMakeFiles/Pointers.dir/6_Pointers/Pointers.cpp.obj
+.PHONY : 6_Pointers/Pointers.cpp.obj
+
+6_Pointers/Pointers.i: 6_Pointers/Pointers.cpp.i
+.PHONY : 6_Pointers/Pointers.i
+
+# target to preprocess a source file
+6_Pointers/Pointers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pointers.dir\build.make CMakeFiles/Pointers.dir/6_Pointers/Pointers.cpp.i
+.PHONY : 6_Pointers/Pointers.cpp.i
+
+6_Pointers/Pointers.s: 6_Pointers/Pointers.cpp.s
+.PHONY : 6_Pointers/Pointers.s
+
+# target to generate assembly for a file
+6_Pointers/Pointers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pointers.dir\build.make CMakeFiles/Pointers.dir/6_Pointers/Pointers.cpp.s
+.PHONY : 6_Pointers/Pointers.cpp.s
+
+7_Address/address.obj: 7_Address/address.cpp.obj
+.PHONY : 7_Address/address.obj
+
+# target to build an object file
+7_Address/address.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\address.dir\build.make CMakeFiles/address.dir/7_Address/address.cpp.obj
+.PHONY : 7_Address/address.cpp.obj
+
+7_Address/address.i: 7_Address/address.cpp.i
+.PHONY : 7_Address/address.i
+
+# target to preprocess a source file
+7_Address/address.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\address.dir\build.make CMakeFiles/address.dir/7_Address/address.cpp.i
+.PHONY : 7_Address/address.cpp.i
+
+7_Address/address.s: 7_Address/address.cpp.s
+.PHONY : 7_Address/address.s
+
+# target to generate assembly for a file
+7_Address/address.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\address.dir\build.make CMakeFiles/address.dir/7_Address/address.cpp.s
+.PHONY : 7_Address/address.cpp.s
+
+8_Array/array.obj: 8_Array/array.cpp.obj
+.PHONY : 8_Array/array.obj
+
+# target to build an object file
+8_Array/array.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array.dir\build.make CMakeFiles/array.dir/8_Array/array.cpp.obj
+.PHONY : 8_Array/array.cpp.obj
+
+8_Array/array.i: 8_Array/array.cpp.i
+.PHONY : 8_Array/array.i
+
+# target to preprocess a source file
+8_Array/array.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array.dir\build.make CMakeFiles/array.dir/8_Array/array.cpp.i
+.PHONY : 8_Array/array.cpp.i
+
+8_Array/array.s: 8_Array/array.cpp.s
+.PHONY : 8_Array/array.s
+
+# target to generate assembly for a file
+8_Array/array.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array.dir\build.make CMakeFiles/array.dir/8_Array/array.cpp.s
+.PHONY : 8_Array/array.cpp.s
+
+9_DynamicArray/dynamicArr.obj: 9_DynamicArray/dynamicArr.cpp.obj
+.PHONY : 9_DynamicArray/dynamicArr.obj
+
+# target to build an object file
+9_DynamicArray/dynamicArr.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dynamicArr.dir\build.make CMakeFiles/dynamicArr.dir/9_DynamicArray/dynamicArr.cpp.obj
+.PHONY : 9_DynamicArray/dynamicArr.cpp.obj
+
+9_DynamicArray/dynamicArr.i: 9_DynamicArray/dynamicArr.cpp.i
+.PHONY : 9_DynamicArray/dynamicArr.i
+
+# target to preprocess a source file
+9_DynamicArray/dynamicArr.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dynamicArr.dir\build.make CMakeFiles/dynamicArr.dir/9_DynamicArray/dynamicArr.cpp.i
+.PHONY : 9_DynamicArray/dynamicArr.cpp.i
+
+9_DynamicArray/dynamicArr.s: 9_DynamicArray/dynamicArr.cpp.s
+.PHONY : 9_DynamicArray/dynamicArr.s
+
+# target to generate assembly for a file
+9_DynamicArray/dynamicArr.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dynamicArr.dir\build.make CMakeFiles/dynamicArr.dir/9_DynamicArray/dynamicArr.cpp.s
+.PHONY : 9_DynamicArray/dynamicArr.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -168,10 +871,86 @@ help:
 	@echo ... codegen
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... IfOperator
+	@echo ... Loop
+	@echo ... Pointers
+	@echo ... TypesOfData
+	@echo ... VariablesAndMemoryMemory
+	@echo ... address
+	@echo ... array
+	@echo ... arrayvector
+	@echo ... associativecontainers
+	@echo ... classes
+	@echo ... constructors
+	@echo ... desctructor
+	@echo ... dynamicArr
+	@echo ... functions
+	@echo ... introduction
+	@echo ... miscellaneous
 	@echo ... oop
+	@echo ... overloading
+	@echo ... stackqueue
+	@echo ... usertypes
+	@echo ... 10_Functions/functions.obj
+	@echo ... 10_Functions/functions.i
+	@echo ... 10_Functions/functions.s
+	@echo ... 11_UserTypes/usertypes.obj
+	@echo ... 11_UserTypes/usertypes.i
+	@echo ... 11_UserTypes/usertypes.s
 	@echo ... 12_OOP/oop.obj
 	@echo ... 12_OOP/oop.i
 	@echo ... 12_OOP/oop.s
+	@echo ... 13_Classes/classes.obj
+	@echo ... 13_Classes/classes.i
+	@echo ... 13_Classes/classes.s
+	@echo ... 14_Constructors/constructors.obj
+	@echo ... 14_Constructors/constructors.i
+	@echo ... 14_Constructors/constructors.s
+	@echo ... 15_Desctructor/desctructor.obj
+	@echo ... 15_Desctructor/desctructor.i
+	@echo ... 15_Desctructor/desctructor.s
+	@echo ... 16_Overloading/overloading.obj
+	@echo ... 16_Overloading/overloading.i
+	@echo ... 16_Overloading/overloading.s
+	@echo ... 17_ArrayVector/arrayvector.obj
+	@echo ... 17_ArrayVector/arrayvector.i
+	@echo ... 17_ArrayVector/arrayvector.s
+	@echo ... 18_AssociativeContainers/associativecontainers.obj
+	@echo ... 18_AssociativeContainers/associativecontainers.i
+	@echo ... 18_AssociativeContainers/associativecontainers.s
+	@echo ... 19_StackQueue/stackqueue.obj
+	@echo ... 19_StackQueue/stackqueue.i
+	@echo ... 19_StackQueue/stackqueue.s
+	@echo ... 1_Introduction/introduction.obj
+	@echo ... 1_Introduction/introduction.i
+	@echo ... 1_Introduction/introduction.s
+	@echo ... 20_Miscellaneous/miscellaneous.obj
+	@echo ... 20_Miscellaneous/miscellaneous.i
+	@echo ... 20_Miscellaneous/miscellaneous.s
+	@echo ... 2_FundamentalTypesOfData/TypesOfData.obj
+	@echo ... 2_FundamentalTypesOfData/TypesOfData.i
+	@echo ... 2_FundamentalTypesOfData/TypesOfData.s
+	@echo ... 3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.obj
+	@echo ... 3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.i
+	@echo ... 3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.s
+	@echo ... 4_IfOperator/IfOperator.obj
+	@echo ... 4_IfOperator/IfOperator.i
+	@echo ... 4_IfOperator/IfOperator.s
+	@echo ... 5_Loop/Loop.obj
+	@echo ... 5_Loop/Loop.i
+	@echo ... 5_Loop/Loop.s
+	@echo ... 6_Pointers/Pointers.obj
+	@echo ... 6_Pointers/Pointers.i
+	@echo ... 6_Pointers/Pointers.s
+	@echo ... 7_Address/address.obj
+	@echo ... 7_Address/address.i
+	@echo ... 7_Address/address.s
+	@echo ... 8_Array/array.obj
+	@echo ... 8_Array/array.i
+	@echo ... 8_Array/array.s
+	@echo ... 9_DynamicArray/dynamicArr.obj
+	@echo ... 9_DynamicArray/dynamicArr.i
+	@echo ... 9_DynamicArray/dynamicArr.s
 .PHONY : help
 
 

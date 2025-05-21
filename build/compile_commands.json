@@ -1,8 +1,122 @@
 [
 {
   "directory": "H:/Разное/c/C-Colloquium/build",
+  "command": "C:\\Users\\user\\.utils\\llvm-mingw\\bin\\clang++.exe   -g -O0 -Wall -std=gnu++20 -o CMakeFiles\\introduction.dir\\1_Introduction\\introduction.cpp.obj -c H:\\Разное\\c\\C-Colloquium\\1_Introduction\\introduction.cpp",
+  "file": "H:/Разное/c/C-Colloquium/1_Introduction/introduction.cpp",
+  "output": "CMakeFiles/introduction.dir/1_Introduction/introduction.cpp.obj"
+},
+{
+  "directory": "H:/Разное/c/C-Colloquium/build",
+  "command": "C:\\Users\\user\\.utils\\llvm-mingw\\bin\\clang++.exe   -g -O0 -Wall -std=gnu++20 -o CMakeFiles\\TypesOfData.dir\\2_FundamentalTypesOfData\\TypesOfData.cpp.obj -c H:\\Разное\\c\\C-Colloquium\\2_FundamentalTypesOfData\\TypesOfData.cpp",
+  "file": "H:/Разное/c/C-Colloquium/2_FundamentalTypesOfData/TypesOfData.cpp",
+  "output": "CMakeFiles/TypesOfData.dir/2_FundamentalTypesOfData/TypesOfData.cpp.obj"
+},
+{
+  "directory": "H:/Разное/c/C-Colloquium/build",
+  "command": "C:\\Users\\user\\.utils\\llvm-mingw\\bin\\clang++.exe   -g -O0 -Wall -std=gnu++20 -o CMakeFiles\\VariablesAndMemoryMemory.dir\\3_VariablesAndMemoryMemory\\VariablesAndMemoryMemory.cpp.obj -c H:\\Разное\\c\\C-Colloquium\\3_VariablesAndMemoryMemory\\VariablesAndMemoryMemory.cpp",
+  "file": "H:/Разное/c/C-Colloquium/3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.cpp",
+  "output": "CMakeFiles/VariablesAndMemoryMemory.dir/3_VariablesAndMemoryMemory/VariablesAndMemoryMemory.cpp.obj"
+},
+{
+  "directory": "H:/Разное/c/C-Colloquium/build",
+  "command": "C:\\Users\\user\\.utils\\llvm-mingw\\bin\\clang++.exe   -g -O0 -Wall -std=gnu++20 -o CMakeFiles\\IfOperator.dir\\4_IfOperator\\IfOperator.cpp.obj -c H:\\Разное\\c\\C-Colloquium\\4_IfOperator\\IfOperator.cpp",
+  "file": "H:/Разное/c/C-Colloquium/4_IfOperator/IfOperator.cpp",
+  "output": "CMakeFiles/IfOperator.dir/4_IfOperator/IfOperator.cpp.obj"
+},
+{
+  "directory": "H:/Разное/c/C-Colloquium/build",
+  "command": "C:\\Users\\user\\.utils\\llvm-mingw\\bin\\clang++.exe   -g -O0 -Wall -std=gnu++20 -o CMakeFiles\\Loop.dir\\5_Loop\\Loop.cpp.obj -c H:\\Разное\\c\\C-Colloquium\\5_Loop\\Loop.cpp",
+  "file": "H:/Разное/c/C-Colloquium/5_Loop/Loop.cpp",
+  "output": "CMakeFiles/Loop.dir/5_Loop/Loop.cpp.obj"
+},
+{
+  "directory": "H:/Разное/c/C-Colloquium/build",
+  "command": "C:\\Users\\user\\.utils\\llvm-mingw\\bin\\clang++.exe   -g -O0 -Wall -std=gnu++20 -o CMakeFiles\\Pointers.dir\\6_Pointers\\Pointers.cpp.obj -c H:\\Разное\\c\\C-Colloquium\\6_Pointers\\Pointers.cpp",
+  "file": "H:/Разное/c/C-Colloquium/6_Pointers/Pointers.cpp",
+  "output": "CMakeFiles/Pointers.dir/6_Pointers/Pointers.cpp.obj"
+},
+{
+  "directory": "H:/Разное/c/C-Colloquium/build",
+  "command": "C:\\Users\\user\\.utils\\llvm-mingw\\bin\\clang++.exe   -g -O0 -Wall -std=gnu++20 -o CMakeFiles\\address.dir\\7_Address\\address.cpp.obj -c H:\\Разное\\c\\C-Colloquium\\7_Address\\address.cpp",
+  "file": "H:/Разное/c/C-Colloquium/7_Address/address.cpp",
+  "output": "CMakeFiles/address.dir/7_Address/address.cpp.obj"
+},
+{
+  "directory": "H:/Разное/c/C-Colloquium/build",
+  "command": "C:\\Users\\user\\.utils\\llvm-mingw\\bin\\clang++.exe   -g -O0 -Wall -std=gnu++20 -o CMakeFiles\\array.dir\\8_Array\\array.cpp.obj -c H:\\Разное\\c\\C-Colloquium\\8_Array\\array.cpp",
+  "file": "H:/Разное/c/C-Colloquium/8_Array/array.cpp",
+  "output": "CMakeFiles/array.dir/8_Array/array.cpp.obj"
+},
+{
+  "directory": "H:/Разное/c/C-Colloquium/build",
+  "command": "C:\\Users\\user\\.utils\\llvm-mingw\\bin\\clang++.exe   -g -O0 -Wall -std=gnu++20 -o CMakeFiles\\dynamicArr.dir\\9_DynamicArray\\dynamicArr.cpp.obj -c H:\\Разное\\c\\C-Colloquium\\9_DynamicArray\\dynamicArr.cpp",
+  "file": "H:/Разное/c/C-Colloquium/9_DynamicArray/dynamicArr.cpp",
+  "output": "CMakeFiles/dynamicArr.dir/9_DynamicArray/dynamicArr.cpp.obj"
+},
+{
+  "directory": "H:/Разное/c/C-Colloquium/build",
+  "command": "C:\\Users\\user\\.utils\\llvm-mingw\\bin\\clang++.exe   -g -O0 -Wall -std=gnu++20 -o CMakeFiles\\functions.dir\\10_Functions\\functions.cpp.obj -c H:\\Разное\\c\\C-Colloquium\\10_Functions\\functions.cpp",
+  "file": "H:/Разное/c/C-Colloquium/10_Functions/functions.cpp",
+  "output": "CMakeFiles/functions.dir/10_Functions/functions.cpp.obj"
+},
+{
+  "directory": "H:/Разное/c/C-Colloquium/build",
+  "command": "C:\\Users\\user\\.utils\\llvm-mingw\\bin\\clang++.exe   -g -O0 -Wall -std=gnu++20 -o CMakeFiles\\usertypes.dir\\11_UserTypes\\usertypes.cpp.obj -c H:\\Разное\\c\\C-Colloquium\\11_UserTypes\\usertypes.cpp",
+  "file": "H:/Разное/c/C-Colloquium/11_UserTypes/usertypes.cpp",
+  "output": "CMakeFiles/usertypes.dir/11_UserTypes/usertypes.cpp.obj"
+},
+{
+  "directory": "H:/Разное/c/C-Colloquium/build",
   "command": "C:\\Users\\user\\.utils\\llvm-mingw\\bin\\clang++.exe   -g -O0 -Wall -std=gnu++20 -o CMakeFiles\\oop.dir\\12_OOP\\oop.cpp.obj -c H:\\Разное\\c\\C-Colloquium\\12_OOP\\oop.cpp",
   "file": "H:/Разное/c/C-Colloquium/12_OOP/oop.cpp",
   "output": "CMakeFiles/oop.dir/12_OOP/oop.cpp.obj"
+},
+{
+  "directory": "H:/Разное/c/C-Colloquium/build",
+  "command": "C:\\Users\\user\\.utils\\llvm-mingw\\bin\\clang++.exe   -g -O0 -Wall -std=gnu++20 -o CMakeFiles\\classes.dir\\13_Classes\\classes.cpp.obj -c H:\\Разное\\c\\C-Colloquium\\13_Classes\\classes.cpp",
+  "file": "H:/Разное/c/C-Colloquium/13_Classes/classes.cpp",
+  "output": "CMakeFiles/classes.dir/13_Classes/classes.cpp.obj"
+},
+{
+  "directory": "H:/Разное/c/C-Colloquium/build",
+  "command": "C:\\Users\\user\\.utils\\llvm-mingw\\bin\\clang++.exe   -g -O0 -Wall -std=gnu++20 -o CMakeFiles\\constructors.dir\\14_Constructors\\constructors.cpp.obj -c H:\\Разное\\c\\C-Colloquium\\14_Constructors\\constructors.cpp",
+  "file": "H:/Разное/c/C-Colloquium/14_Constructors/constructors.cpp",
+  "output": "CMakeFiles/constructors.dir/14_Constructors/constructors.cpp.obj"
+},
+{
+  "directory": "H:/Разное/c/C-Colloquium/build",
+  "command": "C:\\Users\\user\\.utils\\llvm-mingw\\bin\\clang++.exe   -g -O0 -Wall -std=gnu++20 -o CMakeFiles\\desctructor.dir\\15_Desctructor\\desctructor.cpp.obj -c H:\\Разное\\c\\C-Colloquium\\15_Desctructor\\desctructor.cpp",
+  "file": "H:/Разное/c/C-Colloquium/15_Desctructor/desctructor.cpp",
+  "output": "CMakeFiles/desctructor.dir/15_Desctructor/desctructor.cpp.obj"
+},
+{
+  "directory": "H:/Разное/c/C-Colloquium/build",
+  "command": "C:\\Users\\user\\.utils\\llvm-mingw\\bin\\clang++.exe   -g -O0 -Wall -std=gnu++20 -o CMakeFiles\\overloading.dir\\16_Overloading\\overloading.cpp.obj -c H:\\Разное\\c\\C-Colloquium\\16_Overloading\\overloading.cpp",
+  "file": "H:/Разное/c/C-Colloquium/16_Overloading/overloading.cpp",
+  "output": "CMakeFiles/overloading.dir/16_Overloading/overloading.cpp.obj"
+},
+{
+  "directory": "H:/Разное/c/C-Colloquium/build",
+  "command": "C:\\Users\\user\\.utils\\llvm-mingw\\bin\\clang++.exe   -g -O0 -Wall -std=gnu++20 -o CMakeFiles\\arrayvector.dir\\17_ArrayVector\\arrayvector.cpp.obj -c H:\\Разное\\c\\C-Colloquium\\17_ArrayVector\\arrayvector.cpp",
+  "file": "H:/Разное/c/C-Colloquium/17_ArrayVector/arrayvector.cpp",
+  "output": "CMakeFiles/arrayvector.dir/17_ArrayVector/arrayvector.cpp.obj"
+},
+{
+  "directory": "H:/Разное/c/C-Colloquium/build",
+  "command": "C:\\Users\\user\\.utils\\llvm-mingw\\bin\\clang++.exe   -g -O0 -Wall -std=gnu++20 -o CMakeFiles\\associativecontainers.dir\\18_AssociativeContainers\\associativecontainers.cpp.obj -c H:\\Разное\\c\\C-Colloquium\\18_AssociativeContainers\\associativecontainers.cpp",
+  "file": "H:/Разное/c/C-Colloquium/18_AssociativeContainers/associativecontainers.cpp",
+  "output": "CMakeFiles/associativecontainers.dir/18_AssociativeContainers/associativecontainers.cpp.obj"
+},
+{
+  "directory": "H:/Разное/c/C-Colloquium/build",
+  "command": "C:\\Users\\user\\.utils\\llvm-mingw\\bin\\clang++.exe   -g -O0 -Wall -std=gnu++20 -o CMakeFiles\\stackqueue.dir\\19_StackQueue\\stackqueue.cpp.obj -c H:\\Разное\\c\\C-Colloquium\\19_StackQueue\\stackqueue.cpp",
+  "file": "H:/Разное/c/C-Colloquium/19_StackQueue/stackqueue.cpp",
+  "output": "CMakeFiles/stackqueue.dir/19_StackQueue/stackqueue.cpp.obj"
+},
+{
+  "directory": "H:/Разное/c/C-Colloquium/build",
+  "command": "C:\\Users\\user\\.utils\\llvm-mingw\\bin\\clang++.exe   -g -O0 -Wall -std=gnu++20 -o CMakeFiles\\miscellaneous.dir\\20_Miscellaneous\\miscellaneous.cpp.obj -c H:\\Разное\\c\\C-Colloquium\\20_Miscellaneous\\miscellaneous.cpp",
+  "file": "H:/Разное/c/C-Colloquium/20_Miscellaneous/miscellaneous.cpp",
+  "output": "CMakeFiles/miscellaneous.dir/20_Miscellaneous/miscellaneous.cpp.obj"
 }
 ]

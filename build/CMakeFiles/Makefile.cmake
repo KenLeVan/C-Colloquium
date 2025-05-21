@@ -63,5 +63,24 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/introduction.dir/DependInfo.cmake"
+  "CMakeFiles/TypesOfData.dir/DependInfo.cmake"
+  "CMakeFiles/VariablesAndMemoryMemory.dir/DependInfo.cmake"
+  "CMakeFiles/IfOperator.dir/DependInfo.cmake"
+  "CMakeFiles/Loop.dir/DependInfo.cmake"
+  "CMakeFiles/Pointers.dir/DependInfo.cmake"
+  "CMakeFiles/address.dir/DependInfo.cmake"
+  "CMakeFiles/array.dir/DependInfo.cmake"
+  "CMakeFiles/dynamicArr.dir/DependInfo.cmake"
+  "CMakeFiles/functions.dir/DependInfo.cmake"
+  "CMakeFiles/usertypes.dir/DependInfo.cmake"
   "CMakeFiles/oop.dir/DependInfo.cmake"
+  "CMakeFiles/classes.dir/DependInfo.cmake"
+  "CMakeFiles/constructors.dir/DependInfo.cmake"
+  "CMakeFiles/desctructor.dir/DependInfo.cmake"
+  "CMakeFiles/overloading.dir/DependInfo.cmake"
+  "CMakeFiles/arrayvector.dir/DependInfo.cmake"
+  "CMakeFiles/associativecontainers.dir/DependInfo.cmake"
+  "CMakeFiles/stackqueue.dir/DependInfo.cmake"
+  "CMakeFiles/miscellaneous.dir/DependInfo.cmake"
   )

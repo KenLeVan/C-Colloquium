@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\desctructor.dir/objects.a
+C:\Users\user\.utils\llvm-mingw\bin\llvm-ar.exe qc CMakeFiles\desctructor.dir/objects.a @CMakeFiles\desctructor.dir\objects1.rsp
+C:\Users\user\.utils\llvm-mingw\bin\clang++.exe -g -O0 -Wall -Wl,--whole-archive CMakeFiles\desctructor.dir/objects.a -Wl,--no-whole-archive -o desctructor.exe -Wl,--out-implib,libdesctructor.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\desctructor.dir\linkLibs.rsp

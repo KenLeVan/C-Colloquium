@@ -62,11 +62,49 @@ CMAKE_BINARY_DIR = H:\Разное\c\C-Colloquium\build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/introduction.dir/all
+all: CMakeFiles/TypesOfData.dir/all
+all: CMakeFiles/VariablesAndMemoryMemory.dir/all
+all: CMakeFiles/IfOperator.dir/all
+all: CMakeFiles/Loop.dir/all
+all: CMakeFiles/Pointers.dir/all
+all: CMakeFiles/address.dir/all
+all: CMakeFiles/array.dir/all
+all: CMakeFiles/dynamicArr.dir/all
+all: CMakeFiles/functions.dir/all
+all: CMakeFiles/usertypes.dir/all
 all: CMakeFiles/oop.dir/all
+all: CMakeFiles/classes.dir/all
+all: CMakeFiles/constructors.dir/all
+all: CMakeFiles/desctructor.dir/all
+all: CMakeFiles/overloading.dir/all
+all: CMakeFiles/arrayvector.dir/all
+all: CMakeFiles/associativecontainers.dir/all
+all: CMakeFiles/stackqueue.dir/all
+all: CMakeFiles/miscellaneous.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
+codegen: CMakeFiles/introduction.dir/codegen
+codegen: CMakeFiles/TypesOfData.dir/codegen
+codegen: CMakeFiles/VariablesAndMemoryMemory.dir/codegen
+codegen: CMakeFiles/IfOperator.dir/codegen
+codegen: CMakeFiles/Loop.dir/codegen
+codegen: CMakeFiles/Pointers.dir/codegen
+codegen: CMakeFiles/address.dir/codegen
+codegen: CMakeFiles/array.dir/codegen
+codegen: CMakeFiles/dynamicArr.dir/codegen
+codegen: CMakeFiles/functions.dir/codegen
+codegen: CMakeFiles/usertypes.dir/codegen
 codegen: CMakeFiles/oop.dir/codegen
+codegen: CMakeFiles/classes.dir/codegen
+codegen: CMakeFiles/constructors.dir/codegen
+codegen: CMakeFiles/desctructor.dir/codegen
+codegen: CMakeFiles/overloading.dir/codegen
+codegen: CMakeFiles/arrayvector.dir/codegen
+codegen: CMakeFiles/associativecontainers.dir/codegen
+codegen: CMakeFiles/stackqueue.dir/codegen
+codegen: CMakeFiles/miscellaneous.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -74,8 +112,379 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/introduction.dir/clean
+clean: CMakeFiles/TypesOfData.dir/clean
+clean: CMakeFiles/VariablesAndMemoryMemory.dir/clean
+clean: CMakeFiles/IfOperator.dir/clean
+clean: CMakeFiles/Loop.dir/clean
+clean: CMakeFiles/Pointers.dir/clean
+clean: CMakeFiles/address.dir/clean
+clean: CMakeFiles/array.dir/clean
+clean: CMakeFiles/dynamicArr.dir/clean
+clean: CMakeFiles/functions.dir/clean
+clean: CMakeFiles/usertypes.dir/clean
 clean: CMakeFiles/oop.dir/clean
+clean: CMakeFiles/classes.dir/clean
+clean: CMakeFiles/constructors.dir/clean
+clean: CMakeFiles/desctructor.dir/clean
+clean: CMakeFiles/overloading.dir/clean
+clean: CMakeFiles/arrayvector.dir/clean
+clean: CMakeFiles/associativecontainers.dir/clean
+clean: CMakeFiles/stackqueue.dir/clean
+clean: CMakeFiles/miscellaneous.dir/clean
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/introduction.dir
+
+# All Build rule for target.
+CMakeFiles/introduction.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\introduction.dir\build.make CMakeFiles/introduction.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\introduction.dir\build.make CMakeFiles/introduction.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=29,30 "Built target introduction"
+.PHONY : CMakeFiles/introduction.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/introduction.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start H:\Разное\c\C-Colloquium\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/introduction.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start H:\Разное\c\C-Colloquium\build\CMakeFiles 0
+.PHONY : CMakeFiles/introduction.dir/rule
+
+# Convenience name for target.
+introduction: CMakeFiles/introduction.dir/rule
+.PHONY : introduction
+
+# codegen rule for target.
+CMakeFiles/introduction.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\introduction.dir\build.make CMakeFiles/introduction.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=29,30 "Finished codegen for target introduction"
+.PHONY : CMakeFiles/introduction.dir/codegen
+
+# clean rule for target.
+CMakeFiles/introduction.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\introduction.dir\build.make CMakeFiles/introduction.dir/clean
+.PHONY : CMakeFiles/introduction.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/TypesOfData.dir
+
+# All Build rule for target.
+CMakeFiles/TypesOfData.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TypesOfData.dir\build.make CMakeFiles/TypesOfData.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TypesOfData.dir\build.make CMakeFiles/TypesOfData.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=7,8 "Built target TypesOfData"
+.PHONY : CMakeFiles/TypesOfData.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/TypesOfData.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start H:\Разное\c\C-Colloquium\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/TypesOfData.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start H:\Разное\c\C-Colloquium\build\CMakeFiles 0
+.PHONY : CMakeFiles/TypesOfData.dir/rule
+
+# Convenience name for target.
+TypesOfData: CMakeFiles/TypesOfData.dir/rule
+.PHONY : TypesOfData
+
+# codegen rule for target.
+CMakeFiles/TypesOfData.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TypesOfData.dir\build.make CMakeFiles/TypesOfData.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=7,8 "Finished codegen for target TypesOfData"
+.PHONY : CMakeFiles/TypesOfData.dir/codegen
+
+# clean rule for target.
+CMakeFiles/TypesOfData.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TypesOfData.dir\build.make CMakeFiles/TypesOfData.dir/clean
+.PHONY : CMakeFiles/TypesOfData.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/VariablesAndMemoryMemory.dir
+
+# All Build rule for target.
+CMakeFiles/VariablesAndMemoryMemory.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VariablesAndMemoryMemory.dir\build.make CMakeFiles/VariablesAndMemoryMemory.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VariablesAndMemoryMemory.dir\build.make CMakeFiles/VariablesAndMemoryMemory.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=9,10 "Built target VariablesAndMemoryMemory"
+.PHONY : CMakeFiles/VariablesAndMemoryMemory.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/VariablesAndMemoryMemory.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start H:\Разное\c\C-Colloquium\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/VariablesAndMemoryMemory.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start H:\Разное\c\C-Colloquium\build\CMakeFiles 0
+.PHONY : CMakeFiles/VariablesAndMemoryMemory.dir/rule
+
+# Convenience name for target.
+VariablesAndMemoryMemory: CMakeFiles/VariablesAndMemoryMemory.dir/rule
+.PHONY : VariablesAndMemoryMemory
+
+# codegen rule for target.
+CMakeFiles/VariablesAndMemoryMemory.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VariablesAndMemoryMemory.dir\build.make CMakeFiles/VariablesAndMemoryMemory.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=9,10 "Finished codegen for target VariablesAndMemoryMemory"
+.PHONY : CMakeFiles/VariablesAndMemoryMemory.dir/codegen
+
+# clean rule for target.
+CMakeFiles/VariablesAndMemoryMemory.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VariablesAndMemoryMemory.dir\build.make CMakeFiles/VariablesAndMemoryMemory.dir/clean
+.PHONY : CMakeFiles/VariablesAndMemoryMemory.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/IfOperator.dir
+
+# All Build rule for target.
+CMakeFiles/IfOperator.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IfOperator.dir\build.make CMakeFiles/IfOperator.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IfOperator.dir\build.make CMakeFiles/IfOperator.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=1,2 "Built target IfOperator"
+.PHONY : CMakeFiles/IfOperator.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/IfOperator.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start H:\Разное\c\C-Colloquium\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/IfOperator.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start H:\Разное\c\C-Colloquium\build\CMakeFiles 0
+.PHONY : CMakeFiles/IfOperator.dir/rule
+
+# Convenience name for target.
+IfOperator: CMakeFiles/IfOperator.dir/rule
+.PHONY : IfOperator
+
+# codegen rule for target.
+CMakeFiles/IfOperator.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IfOperator.dir\build.make CMakeFiles/IfOperator.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=1,2 "Finished codegen for target IfOperator"
+.PHONY : CMakeFiles/IfOperator.dir/codegen
+
+# clean rule for target.
+CMakeFiles/IfOperator.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\IfOperator.dir\build.make CMakeFiles/IfOperator.dir/clean
+.PHONY : CMakeFiles/IfOperator.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Loop.dir
+
+# All Build rule for target.
+CMakeFiles/Loop.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Loop.dir\build.make CMakeFiles/Loop.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Loop.dir\build.make CMakeFiles/Loop.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=3,4 "Built target Loop"
+.PHONY : CMakeFiles/Loop.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Loop.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start H:\Разное\c\C-Colloquium\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Loop.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start H:\Разное\c\C-Colloquium\build\CMakeFiles 0
+.PHONY : CMakeFiles/Loop.dir/rule
+
+# Convenience name for target.
+Loop: CMakeFiles/Loop.dir/rule
+.PHONY : Loop
+
+# codegen rule for target.
+CMakeFiles/Loop.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Loop.dir\build.make CMakeFiles/Loop.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=3,4 "Finished codegen for target Loop"
+.PHONY : CMakeFiles/Loop.dir/codegen
+
+# clean rule for target.
+CMakeFiles/Loop.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Loop.dir\build.make CMakeFiles/Loop.dir/clean
+.PHONY : CMakeFiles/Loop.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Pointers.dir
+
+# All Build rule for target.
+CMakeFiles/Pointers.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pointers.dir\build.make CMakeFiles/Pointers.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pointers.dir\build.make CMakeFiles/Pointers.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=5,6 "Built target Pointers"
+.PHONY : CMakeFiles/Pointers.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Pointers.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start H:\Разное\c\C-Colloquium\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Pointers.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start H:\Разное\c\C-Colloquium\build\CMakeFiles 0
+.PHONY : CMakeFiles/Pointers.dir/rule
+
+# Convenience name for target.
+Pointers: CMakeFiles/Pointers.dir/rule
+.PHONY : Pointers
+
+# codegen rule for target.
+CMakeFiles/Pointers.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pointers.dir\build.make CMakeFiles/Pointers.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=5,6 "Finished codegen for target Pointers"
+.PHONY : CMakeFiles/Pointers.dir/codegen
+
+# clean rule for target.
+CMakeFiles/Pointers.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pointers.dir\build.make CMakeFiles/Pointers.dir/clean
+.PHONY : CMakeFiles/Pointers.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/address.dir
+
+# All Build rule for target.
+CMakeFiles/address.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\address.dir\build.make CMakeFiles/address.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\address.dir\build.make CMakeFiles/address.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=11,12 "Built target address"
+.PHONY : CMakeFiles/address.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/address.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start H:\Разное\c\C-Colloquium\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/address.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start H:\Разное\c\C-Colloquium\build\CMakeFiles 0
+.PHONY : CMakeFiles/address.dir/rule
+
+# Convenience name for target.
+address: CMakeFiles/address.dir/rule
+.PHONY : address
+
+# codegen rule for target.
+CMakeFiles/address.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\address.dir\build.make CMakeFiles/address.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=11,12 "Finished codegen for target address"
+.PHONY : CMakeFiles/address.dir/codegen
+
+# clean rule for target.
+CMakeFiles/address.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\address.dir\build.make CMakeFiles/address.dir/clean
+.PHONY : CMakeFiles/address.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/array.dir
+
+# All Build rule for target.
+CMakeFiles/array.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array.dir\build.make CMakeFiles/array.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array.dir\build.make CMakeFiles/array.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=13,14 "Built target array"
+.PHONY : CMakeFiles/array.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/array.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start H:\Разное\c\C-Colloquium\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/array.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start H:\Разное\c\C-Colloquium\build\CMakeFiles 0
+.PHONY : CMakeFiles/array.dir/rule
+
+# Convenience name for target.
+array: CMakeFiles/array.dir/rule
+.PHONY : array
+
+# codegen rule for target.
+CMakeFiles/array.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array.dir\build.make CMakeFiles/array.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=13,14 "Finished codegen for target array"
+.PHONY : CMakeFiles/array.dir/codegen
+
+# clean rule for target.
+CMakeFiles/array.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array.dir\build.make CMakeFiles/array.dir/clean
+.PHONY : CMakeFiles/array.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/dynamicArr.dir
+
+# All Build rule for target.
+CMakeFiles/dynamicArr.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dynamicArr.dir\build.make CMakeFiles/dynamicArr.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dynamicArr.dir\build.make CMakeFiles/dynamicArr.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=25,26 "Built target dynamicArr"
+.PHONY : CMakeFiles/dynamicArr.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/dynamicArr.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start H:\Разное\c\C-Colloquium\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/dynamicArr.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start H:\Разное\c\C-Colloquium\build\CMakeFiles 0
+.PHONY : CMakeFiles/dynamicArr.dir/rule
+
+# Convenience name for target.
+dynamicArr: CMakeFiles/dynamicArr.dir/rule
+.PHONY : dynamicArr
+
+# codegen rule for target.
+CMakeFiles/dynamicArr.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dynamicArr.dir\build.make CMakeFiles/dynamicArr.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=25,26 "Finished codegen for target dynamicArr"
+.PHONY : CMakeFiles/dynamicArr.dir/codegen
+
+# clean rule for target.
+CMakeFiles/dynamicArr.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dynamicArr.dir\build.make CMakeFiles/dynamicArr.dir/clean
+.PHONY : CMakeFiles/dynamicArr.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/functions.dir
+
+# All Build rule for target.
+CMakeFiles/functions.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\functions.dir\build.make CMakeFiles/functions.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\functions.dir\build.make CMakeFiles/functions.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=27,28 "Built target functions"
+.PHONY : CMakeFiles/functions.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/functions.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start H:\Разное\c\C-Colloquium\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/functions.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start H:\Разное\c\C-Colloquium\build\CMakeFiles 0
+.PHONY : CMakeFiles/functions.dir/rule
+
+# Convenience name for target.
+functions: CMakeFiles/functions.dir/rule
+.PHONY : functions
+
+# codegen rule for target.
+CMakeFiles/functions.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\functions.dir\build.make CMakeFiles/functions.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=27,28 "Finished codegen for target functions"
+.PHONY : CMakeFiles/functions.dir/codegen
+
+# clean rule for target.
+CMakeFiles/functions.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\functions.dir\build.make CMakeFiles/functions.dir/clean
+.PHONY : CMakeFiles/functions.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/usertypes.dir
+
+# All Build rule for target.
+CMakeFiles/usertypes.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\usertypes.dir\build.make CMakeFiles/usertypes.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\usertypes.dir\build.make CMakeFiles/usertypes.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=39,40 "Built target usertypes"
+.PHONY : CMakeFiles/usertypes.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/usertypes.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start H:\Разное\c\C-Colloquium\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/usertypes.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start H:\Разное\c\C-Colloquium\build\CMakeFiles 0
+.PHONY : CMakeFiles/usertypes.dir/rule
+
+# Convenience name for target.
+usertypes: CMakeFiles/usertypes.dir/rule
+.PHONY : usertypes
+
+# codegen rule for target.
+CMakeFiles/usertypes.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\usertypes.dir\build.make CMakeFiles/usertypes.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=39,40 "Finished codegen for target usertypes"
+.PHONY : CMakeFiles/usertypes.dir/codegen
+
+# clean rule for target.
+CMakeFiles/usertypes.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\usertypes.dir\build.make CMakeFiles/usertypes.dir/clean
+.PHONY : CMakeFiles/usertypes.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/oop.dir
@@ -84,7 +493,7 @@ clean: CMakeFiles/oop.dir/clean
 CMakeFiles/oop.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop.dir\build.make CMakeFiles/oop.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop.dir\build.make CMakeFiles/oop.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=1,2 "Built target oop"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=33,34 "Built target oop"
 .PHONY : CMakeFiles/oop.dir/all
 
 # Build rule for subdir invocation for target.
@@ -101,13 +510,269 @@ oop: CMakeFiles/oop.dir/rule
 # codegen rule for target.
 CMakeFiles/oop.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop.dir\build.make CMakeFiles/oop.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=1,2 "Finished codegen for target oop"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=33,34 "Finished codegen for target oop"
 .PHONY : CMakeFiles/oop.dir/codegen
 
 # clean rule for target.
 CMakeFiles/oop.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\oop.dir\build.make CMakeFiles/oop.dir/clean
 .PHONY : CMakeFiles/oop.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/classes.dir
+
+# All Build rule for target.
+CMakeFiles/classes.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\classes.dir\build.make CMakeFiles/classes.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\classes.dir\build.make CMakeFiles/classes.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=19,20 "Built target classes"
+.PHONY : CMakeFiles/classes.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/classes.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start H:\Разное\c\C-Colloquium\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/classes.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start H:\Разное\c\C-Colloquium\build\CMakeFiles 0
+.PHONY : CMakeFiles/classes.dir/rule
+
+# Convenience name for target.
+classes: CMakeFiles/classes.dir/rule
+.PHONY : classes
+
+# codegen rule for target.
+CMakeFiles/classes.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\classes.dir\build.make CMakeFiles/classes.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=19,20 "Finished codegen for target classes"
+.PHONY : CMakeFiles/classes.dir/codegen
+
+# clean rule for target.
+CMakeFiles/classes.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\classes.dir\build.make CMakeFiles/classes.dir/clean
+.PHONY : CMakeFiles/classes.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/constructors.dir
+
+# All Build rule for target.
+CMakeFiles/constructors.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\constructors.dir\build.make CMakeFiles/constructors.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\constructors.dir\build.make CMakeFiles/constructors.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=21,22 "Built target constructors"
+.PHONY : CMakeFiles/constructors.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/constructors.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start H:\Разное\c\C-Colloquium\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/constructors.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start H:\Разное\c\C-Colloquium\build\CMakeFiles 0
+.PHONY : CMakeFiles/constructors.dir/rule
+
+# Convenience name for target.
+constructors: CMakeFiles/constructors.dir/rule
+.PHONY : constructors
+
+# codegen rule for target.
+CMakeFiles/constructors.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\constructors.dir\build.make CMakeFiles/constructors.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=21,22 "Finished codegen for target constructors"
+.PHONY : CMakeFiles/constructors.dir/codegen
+
+# clean rule for target.
+CMakeFiles/constructors.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\constructors.dir\build.make CMakeFiles/constructors.dir/clean
+.PHONY : CMakeFiles/constructors.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/desctructor.dir
+
+# All Build rule for target.
+CMakeFiles/desctructor.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\desctructor.dir\build.make CMakeFiles/desctructor.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\desctructor.dir\build.make CMakeFiles/desctructor.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=23,24 "Built target desctructor"
+.PHONY : CMakeFiles/desctructor.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/desctructor.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start H:\Разное\c\C-Colloquium\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/desctructor.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start H:\Разное\c\C-Colloquium\build\CMakeFiles 0
+.PHONY : CMakeFiles/desctructor.dir/rule
+
+# Convenience name for target.
+desctructor: CMakeFiles/desctructor.dir/rule
+.PHONY : desctructor
+
+# codegen rule for target.
+CMakeFiles/desctructor.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\desctructor.dir\build.make CMakeFiles/desctructor.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=23,24 "Finished codegen for target desctructor"
+.PHONY : CMakeFiles/desctructor.dir/codegen
+
+# clean rule for target.
+CMakeFiles/desctructor.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\desctructor.dir\build.make CMakeFiles/desctructor.dir/clean
+.PHONY : CMakeFiles/desctructor.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/overloading.dir
+
+# All Build rule for target.
+CMakeFiles/overloading.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\overloading.dir\build.make CMakeFiles/overloading.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\overloading.dir\build.make CMakeFiles/overloading.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=35,36 "Built target overloading"
+.PHONY : CMakeFiles/overloading.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/overloading.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start H:\Разное\c\C-Colloquium\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/overloading.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start H:\Разное\c\C-Colloquium\build\CMakeFiles 0
+.PHONY : CMakeFiles/overloading.dir/rule
+
+# Convenience name for target.
+overloading: CMakeFiles/overloading.dir/rule
+.PHONY : overloading
+
+# codegen rule for target.
+CMakeFiles/overloading.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\overloading.dir\build.make CMakeFiles/overloading.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=35,36 "Finished codegen for target overloading"
+.PHONY : CMakeFiles/overloading.dir/codegen
+
+# clean rule for target.
+CMakeFiles/overloading.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\overloading.dir\build.make CMakeFiles/overloading.dir/clean
+.PHONY : CMakeFiles/overloading.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/arrayvector.dir
+
+# All Build rule for target.
+CMakeFiles/arrayvector.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arrayvector.dir\build.make CMakeFiles/arrayvector.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arrayvector.dir\build.make CMakeFiles/arrayvector.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=15,16 "Built target arrayvector"
+.PHONY : CMakeFiles/arrayvector.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/arrayvector.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start H:\Разное\c\C-Colloquium\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/arrayvector.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start H:\Разное\c\C-Colloquium\build\CMakeFiles 0
+.PHONY : CMakeFiles/arrayvector.dir/rule
+
+# Convenience name for target.
+arrayvector: CMakeFiles/arrayvector.dir/rule
+.PHONY : arrayvector
+
+# codegen rule for target.
+CMakeFiles/arrayvector.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arrayvector.dir\build.make CMakeFiles/arrayvector.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=15,16 "Finished codegen for target arrayvector"
+.PHONY : CMakeFiles/arrayvector.dir/codegen
+
+# clean rule for target.
+CMakeFiles/arrayvector.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\arrayvector.dir\build.make CMakeFiles/arrayvector.dir/clean
+.PHONY : CMakeFiles/arrayvector.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/associativecontainers.dir
+
+# All Build rule for target.
+CMakeFiles/associativecontainers.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\associativecontainers.dir\build.make CMakeFiles/associativecontainers.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\associativecontainers.dir\build.make CMakeFiles/associativecontainers.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=17,18 "Built target associativecontainers"
+.PHONY : CMakeFiles/associativecontainers.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/associativecontainers.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start H:\Разное\c\C-Colloquium\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/associativecontainers.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start H:\Разное\c\C-Colloquium\build\CMakeFiles 0
+.PHONY : CMakeFiles/associativecontainers.dir/rule
+
+# Convenience name for target.
+associativecontainers: CMakeFiles/associativecontainers.dir/rule
+.PHONY : associativecontainers
+
+# codegen rule for target.
+CMakeFiles/associativecontainers.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\associativecontainers.dir\build.make CMakeFiles/associativecontainers.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=17,18 "Finished codegen for target associativecontainers"
+.PHONY : CMakeFiles/associativecontainers.dir/codegen
+
+# clean rule for target.
+CMakeFiles/associativecontainers.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\associativecontainers.dir\build.make CMakeFiles/associativecontainers.dir/clean
+.PHONY : CMakeFiles/associativecontainers.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/stackqueue.dir
+
+# All Build rule for target.
+CMakeFiles/stackqueue.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stackqueue.dir\build.make CMakeFiles/stackqueue.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stackqueue.dir\build.make CMakeFiles/stackqueue.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=37,38 "Built target stackqueue"
+.PHONY : CMakeFiles/stackqueue.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/stackqueue.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start H:\Разное\c\C-Colloquium\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/stackqueue.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start H:\Разное\c\C-Colloquium\build\CMakeFiles 0
+.PHONY : CMakeFiles/stackqueue.dir/rule
+
+# Convenience name for target.
+stackqueue: CMakeFiles/stackqueue.dir/rule
+.PHONY : stackqueue
+
+# codegen rule for target.
+CMakeFiles/stackqueue.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stackqueue.dir\build.make CMakeFiles/stackqueue.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=37,38 "Finished codegen for target stackqueue"
+.PHONY : CMakeFiles/stackqueue.dir/codegen
+
+# clean rule for target.
+CMakeFiles/stackqueue.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\stackqueue.dir\build.make CMakeFiles/stackqueue.dir/clean
+.PHONY : CMakeFiles/stackqueue.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/miscellaneous.dir
+
+# All Build rule for target.
+CMakeFiles/miscellaneous.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miscellaneous.dir\build.make CMakeFiles/miscellaneous.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miscellaneous.dir\build.make CMakeFiles/miscellaneous.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=31,32 "Built target miscellaneous"
+.PHONY : CMakeFiles/miscellaneous.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/miscellaneous.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start H:\Разное\c\C-Colloquium\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/miscellaneous.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start H:\Разное\c\C-Colloquium\build\CMakeFiles 0
+.PHONY : CMakeFiles/miscellaneous.dir/rule
+
+# Convenience name for target.
+miscellaneous: CMakeFiles/miscellaneous.dir/rule
+.PHONY : miscellaneous
+
+# codegen rule for target.
+CMakeFiles/miscellaneous.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miscellaneous.dir\build.make CMakeFiles/miscellaneous.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=31,32 "Finished codegen for target miscellaneous"
+.PHONY : CMakeFiles/miscellaneous.dir/codegen
+
+# clean rule for target.
+CMakeFiles/miscellaneous.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\miscellaneous.dir\build.make CMakeFiles/miscellaneous.dir/clean
+.PHONY : CMakeFiles/miscellaneous.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

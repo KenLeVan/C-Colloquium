@@ -71,28 +71,28 @@ include CMakeFiles/dynamicArr.dir/flags.make
 CMakeFiles/dynamicArr.dir/codegen:
 .PHONY : CMakeFiles/dynamicArr.dir/codegen
 
-CMakeFiles/dynamicArr.dir/8_Array/array.cpp.obj: CMakeFiles/dynamicArr.dir/flags.make
-CMakeFiles/dynamicArr.dir/8_Array/array.cpp.obj: H:/Разное/c/C-Colloquium/8_Array/array.cpp
-CMakeFiles/dynamicArr.dir/8_Array/array.cpp.obj: CMakeFiles/dynamicArr.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/dynamicArr.dir/8_Array/array.cpp.obj"
-	C:\Users\user\.utils\llvm-mingw\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dynamicArr.dir/8_Array/array.cpp.obj -MF CMakeFiles\dynamicArr.dir\8_Array\array.cpp.obj.d -o CMakeFiles\dynamicArr.dir\8_Array\array.cpp.obj -c H:\Разное\c\C-Colloquium\8_Array\array.cpp
+CMakeFiles/dynamicArr.dir/9_DynamicArray/dynamicArr.cpp.obj: CMakeFiles/dynamicArr.dir/flags.make
+CMakeFiles/dynamicArr.dir/9_DynamicArray/dynamicArr.cpp.obj: H:/Разное/c/C-Colloquium/9_DynamicArray/dynamicArr.cpp
+CMakeFiles/dynamicArr.dir/9_DynamicArray/dynamicArr.cpp.obj: CMakeFiles/dynamicArr.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\Разное\c\C-Colloquium\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/dynamicArr.dir/9_DynamicArray/dynamicArr.cpp.obj"
+	C:\Users\user\.utils\llvm-mingw\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dynamicArr.dir/9_DynamicArray/dynamicArr.cpp.obj -MF CMakeFiles\dynamicArr.dir\9_DynamicArray\dynamicArr.cpp.obj.d -o CMakeFiles\dynamicArr.dir\9_DynamicArray\dynamicArr.cpp.obj -c H:\Разное\c\C-Colloquium\9_DynamicArray\dynamicArr.cpp
 
-CMakeFiles/dynamicArr.dir/8_Array/array.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dynamicArr.dir/8_Array/array.cpp.i"
-	C:\Users\user\.utils\llvm-mingw\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E H:\Разное\c\C-Colloquium\8_Array\array.cpp > CMakeFiles\dynamicArr.dir\8_Array\array.cpp.i
+CMakeFiles/dynamicArr.dir/9_DynamicArray/dynamicArr.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dynamicArr.dir/9_DynamicArray/dynamicArr.cpp.i"
+	C:\Users\user\.utils\llvm-mingw\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E H:\Разное\c\C-Colloquium\9_DynamicArray\dynamicArr.cpp > CMakeFiles\dynamicArr.dir\9_DynamicArray\dynamicArr.cpp.i
 
-CMakeFiles/dynamicArr.dir/8_Array/array.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dynamicArr.dir/8_Array/array.cpp.s"
-	C:\Users\user\.utils\llvm-mingw\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S H:\Разное\c\C-Colloquium\8_Array\array.cpp -o CMakeFiles\dynamicArr.dir\8_Array\array.cpp.s
+CMakeFiles/dynamicArr.dir/9_DynamicArray/dynamicArr.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dynamicArr.dir/9_DynamicArray/dynamicArr.cpp.s"
+	C:\Users\user\.utils\llvm-mingw\bin\clang++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S H:\Разное\c\C-Colloquium\9_DynamicArray\dynamicArr.cpp -o CMakeFiles\dynamicArr.dir\9_DynamicArray\dynamicArr.cpp.s
 
 # Object files for target dynamicArr
 dynamicArr_OBJECTS = \
-"CMakeFiles/dynamicArr.dir/8_Array/array.cpp.obj"
+"CMakeFiles/dynamicArr.dir/9_DynamicArray/dynamicArr.cpp.obj"
 
 # External object files for target dynamicArr
 dynamicArr_EXTERNAL_OBJECTS =
 
-dynamicArr.exe: CMakeFiles/dynamicArr.dir/8_Array/array.cpp.obj
+dynamicArr.exe: CMakeFiles/dynamicArr.dir/9_DynamicArray/dynamicArr.cpp.obj
 dynamicArr.exe: CMakeFiles/dynamicArr.dir/build.make
 dynamicArr.exe: CMakeFiles/dynamicArr.dir/linkLibs.rsp
 dynamicArr.exe: CMakeFiles/dynamicArr.dir/objects1.rsp

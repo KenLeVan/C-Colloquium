@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/dynamicArr.dir/8_Array/array.cpp.obj"
-  "CMakeFiles/dynamicArr.dir/8_Array/array.cpp.obj.d"
+  "CMakeFiles/dynamicArr.dir/9_DynamicArray/dynamicArr.cpp.obj"
+  "CMakeFiles/dynamicArr.dir/9_DynamicArray/dynamicArr.cpp.obj.d"
   "dynamicArr.exe"
   "dynamicArr.exe.manifest"
   "dynamicArr.pdb"

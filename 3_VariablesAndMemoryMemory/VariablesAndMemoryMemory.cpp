@@ -5,7 +5,7 @@ I.
         Memory can be represented as a very long string of cells, and each cell is as long as 8 bits and each cell has its own unique address.
 
         1) int
-            int is 4 bytes long and is obviously contained in a row of 4 cells. There is also a concept of little-endian and big-endian, which shows the order of bytes. For the value 12345 the value is 00 00 30 39. In little-endian it is 39 30 00 00 and in big-endian it is 00 00 30 39\
+            int is 4 bytes long and is obviously contained in a row of 4 cells. There is also a concept of little-endian and big-endian, which shows the order of bytes. For the value 12345 the value is 00 00 30 39. In little-endian it is 39 30 00 00 and in big-endian it is 00 00 30 39
         2) massive
             for a massive of 5 integers the lenght will be 5 * 4 = 20. Then elements are contained in ascending order of indices for the ascending order of addresses.
         3) pointers

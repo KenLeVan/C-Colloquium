@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "H:/Разное/c/C-Colloquium/8_Array/array.cpp" "CMakeFiles/dynamicArr.dir/8_Array/array.cpp.obj" "gcc" "CMakeFiles/dynamicArr.dir/8_Array/array.cpp.obj.d"
+  "H:/Разное/c/C-Colloquium/9_DynamicArray/dynamicArr.cpp" "CMakeFiles/dynamicArr.dir/9_DynamicArray/dynamicArr.cpp.obj" "gcc" "CMakeFiles/dynamicArr.dir/9_DynamicArray/dynamicArr.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
